@@ -1,0 +1,141 @@
+{
+    "id": "ExtBox1-ext-gen15052",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|init": "var me = this;\n\nExt.Viewport.setMasked({ message: 'Loading...' });\n\n// get the location, then...\nme.getLocation(function (location) {\n\n    // then use Yelp to get the businesses\n    me.getBusinesses(location, function (store) {\n\n        // then bind data to list and show it\n        me.getDataList().setStore(store);\n\n        Ext.Viewport.setMasked(false);\n    });\n});",
+        "designer|userClassName": "Business"
+    },
+    "customConfigs": [],
+    "designerId": "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen15335",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "dataList",
+                "selector": "#dataList",
+                "designer|userClassName": "dataList"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen15624",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "listCard",
+                "selector": "#listCard",
+                "designer|userClassName": "listCard"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen15913",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainNav",
+                "selector": "mainnav",
+                "designer|userClassName": "mainNav"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen16147",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "detailCard",
+                "selector": "#detailCard",
+                "designer|userClassName": "detailCard"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen16437",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getLocation",
+                "designer|params": [
+                    "callback"
+                ],
+                "implHandler": "if (navigator && navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(function(position) {\n        callback(position);\n    }, function(error) {\n        // give a warning for error\n    });\n}",
+                "designer|userClassName": "getLocation"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen16514",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getBusinesses",
+                "designer|params": [
+                    "location",
+                    "callback"
+                ],
+                "implHandler": "// NOTE ABOUT YELP KEY\n// You must use your own yelp key, available by registering (for free) with Yelp:\n// http://www.yelp.com/developers/getting_started/api_overview\n// (in this app, we use the Review Search API v1.0)\n\nvar store = Ext.data.StoreManager.lookup('BusinessStore'),\n    url = 'http://api.yelp.com/business_review_search' +\n    '?ywsid=rtGTuop7SdSQwCJwXr90Qw' +\n    '&term=Bars' +\n    '&lat=' + location.coords.latitude +\n    '&long=' + location.coords.longitude;\n\nstore.getProxy().setUrl(url);\n\nstore.load(function() {\n    callback(store);\n});",
+                "designer|userClassName": "getBusinesses"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen17803",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListItemTap",
+                "implHandler": "var me = this;\n\nif (record) {\n\n    if (!me.details) {\n        me.details = Ext.create('CityBars.view.DetailPanel', {\n            title: 'Details'\n        });\n    }\n\n    // set the map\n    var map = me.details.child('#detailMap');\n    map.setMapOptions({\n        zoom: 17\n    });\n    map.setMapCenter({\n        latitude: record.get('latitude'),\n        longitude: record.get('longitude')\n    });\n\n    // set the info\n    var info = me.details.child('#contact').child('#info');\n    info.child('#photo').setData(record.data);\n    info.child('#data').setData(record.data);\n\n    me.getMainNav().push(me.details);\n}",
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#dataList",
+                "designer|userClassName": "onListItemTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

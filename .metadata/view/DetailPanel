@@ -1,0 +1,191 @@
+{
+    "id": "ExtBox1-ext-gen5348",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DetailPanel",
+        "designer|userAlias": "detailpanel"
+    },
+    "customConfigs": [],
+    "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
+    "$viewOrder": 2,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5357",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "ui": "light",
+                "designer|userClassName": "MyTabBar",
+                "container|pack": "center"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5365",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "contact",
+                "designer|userClassName": "MyContainer2",
+                "title": "Contact"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7331",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "info",
+                        "padding": 10,
+                        "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>\n\t\t<h2>{name}</h2>\n\t\t<div class=\"info\">\n\t\t{address1}<br/>\n\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t</div>",
+                        "layout": "hbox",
+                        "designer|userClassName": "MyContainer5"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen8219",
+                            "type": "component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 100,
+                                "id": "photo",
+                                "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
+                                "width": 100,
+                                "designer|userClassName": "MyComponent"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen8310",
+                            "type": "component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "data",
+                                "padding": 10,
+                                "tpl": "<h2>{name}</h2>\n\t\t\t<div class=\"info\">\n\t\t\t{address1}<br/>\n\t\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t\t</div>",
+                                "designer|userClassName": "MyComponent1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen8999",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "hbox",
+                        "designer|userClassName": "MyContainer3",
+                        "container|pack": "center"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen9240",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "text": "Call",
+                                "designer|userClassName": "MyButton"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen9571",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 57,
+                                "designer|userClassName": "MySpacer"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen9815",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "text": "More",
+                                "designer|userClassName": "MyButton1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen10152",
+            "type": "map",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "id": "detailMap",
+                "designer|userClassName": "MyMap",
+                "title": "Map"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
