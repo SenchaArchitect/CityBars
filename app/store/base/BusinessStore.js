@@ -26,7 +26,7 @@ Ext.define('CityBars.store.base.BusinessStore', {
             type: 'jsonp',
             reader: {
                 type: 'json',
-                root: 'businesses'
+                rootProperty: 'businesses'
             }
         }
     }

@@ -39,7 +39,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "root": "businesses",
+                        "rootProperty": "businesses",
                         "designer|userClassName": "MyJsonReader"
                     },
                     "customConfigs": [],

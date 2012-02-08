@@ -39,8 +39,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "id": "listCard",
-                "title": "CityBars"
+                "title": "CityBars",
+                "id": "listCard"
             },
             "customConfigs": [
                 {

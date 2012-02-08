@@ -13,7 +13,8 @@
         "genTimestamps": false,
         "saveOnDeploy": false,
         "appName": "MyApp",
-        "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true"
+        "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
+        "cssPath": ""
     },
     "xdsVersion": "2.0.0",
     "framework": "touch20",
