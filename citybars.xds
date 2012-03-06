@@ -1,12 +1,13 @@
 {
     "name": "citybars",
     "settings": {
-        "urlPrefix": "http://localhost/",
+        "urlPrefix": "http://localhost/sandbox/citybars",
         "directAPI": "",
-        "spacesToIndent": 4,
+        "spacesToIndent": "4",
         "codeGenFormat": "Class",
         "exportPath": "",
         "extPath": "http://extjs.cachefly.net/touch/sencha-touch-designer-edition/",
+        "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "LF",
         "instantiateStore": true,
@@ -14,43 +15,57 @@
         "saveOnDeploy": false,
         "appName": "MyApp",
         "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
-        "cssPath": ""
+        "cssPath": "citybars.css"
     },
     "xdsVersion": "2.0.0",
+    "xdsBuild": "0",
     "framework": "touch20",
     "topInstanceFileMap": {
         "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
             "paths": [
-                "app/view/MainNav.js",
-                "app/view/ui/MainNav.js",
-                "app/view/Viewport.js"
+                "metadata/view/MainNav",
+                "app/view/override/MainNav.js",
+                "app/view/MainNav.js"
             ],
             "className": "MainNav"
         },
         "28e6f7ec-5b3c-4413-9c33-79b45adf4437": {
             "paths": [
-                "app/view/ListContainer.js",
-                "app/view/ui/ListContainer.js"
+                "metadata/view/ListContainer",
+                "app/view/override/ListContainer.js",
+                "app/view/ListContainer.js"
             ],
             "className": "ListContainer"
         },
         "ca7e954f-cecd-4e74-8620-848212a11e02": {
             "paths": [
-                "app/view/DetailPanel.js",
-                "app/view/ui/DetailPanel.js"
+                "metadata/view/DetailPanel",
+                "app/view/override/DetailPanel.js",
+                "app/view/DetailPanel.js"
             ],
             "className": "DetailPanel"
         },
         "b866f522-624d-4bde-a112-b25880c8285f": {
             "paths": [
-                "app/store/BusinessStore.js",
-                "app/store/base/BusinessStore.js"
+                "metadata/store/BusinessStore",
+                "app/store/override/BusinessStore.js",
+                "app/store/BusinessStore.js"
             ],
             "className": "BusinessStore"
         },
         "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e": {
             "paths": [
+                "metadata/controller/Business",
+                "app/controller/override/Business.js",
                 "app/controller/Business.js"
+            ],
+            "className": "Business"
+        },
+        "1a7b373d-09ea-4801-ac4e-48a72712a4fd": {
+            "paths": [
+                "metadata/model/Business",
+                "app/model/override/Business.js",
+                "app/model/Business.js"
             ],
             "className": "Business"
         }

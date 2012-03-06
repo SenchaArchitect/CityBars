@@ -8,17 +8,26 @@
  * License of Sencha Designer does not include license for Sencha Touch 2.0.x. For more
  * details see http://www.sencha.com/license or contact license@sencha.com.
  *
- * You should implement event handling and custom methods in this
- * class.
+ * This file will be auto-generated each and everytime you save your project.
+ *
+ * Do NOT hand edit this file.
  */
 
 Ext.define('CityBars.store.BusinessStore', {
-    extend: 'CityBars.store.base.BusinessStore',
+    extend: 'Ext.data.Store',
+    requires: [
+        'CityBars.model.Business'
+    ],
 
-    constructor: function(cfg) {
-        var me = this;
-        cfg = cfg || {};
-        me.callParent([Ext.apply({}, cfg)]);
+    config: {
+        model: 'CityBars.model.Business',
+        storeId: 'BusinessStore',
+        proxy: {
+            type: 'jsonp',
+            reader: {
+                type: 'json',
+                rootProperty: 'businesses'
+            }
+        }
     }
-
 });

@@ -13,7 +13,7 @@
     "customConfigs": [],
     "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
     "$viewOrder": 2,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5357",
@@ -46,7 +46,7 @@
                 "title": "Contact"
             },
             "customConfigs": [],
-            "expanded": true,
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen7331",
@@ -64,7 +64,7 @@
                         "designer|userClassName": "MyContainer5"
                     },
                     "customConfigs": [],
-                    "expanded": true,
+                    "expanded": false,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen8219",
@@ -117,7 +117,7 @@
                         "container|pack": "center"
                     },
                     "customConfigs": [],
-                    "expanded": true,
+                    "expanded": false,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen9240",

@@ -39,6 +39,6 @@ Ext.application({
     ],
 
     launch: function() {
-        Ext.create('CityBars.view.Viewport');
+        Ext.create('CityBars.view.MainNav', {fullscreen: true});
     }
 });
