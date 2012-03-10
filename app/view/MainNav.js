@@ -26,7 +26,8 @@ Ext.define('CityBars.view.MainNav', {
         },
         items: [
             {
-                xtype: 'listcontainer'
+                xtype: 'listcontainer',
+                title: 'City Bars'
             }
         ]
     }

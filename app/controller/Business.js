@@ -73,7 +73,7 @@ Ext.define('CityBars.controller.Business', {
             long = record.get('longitude');
 
             map.setMapOptions({
-                zoom: 3
+                zoom: 17
             });
             map.setMapCenter({
                 latitude: lat,

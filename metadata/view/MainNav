@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
     "$viewOrder": 0,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen2012",
@@ -38,8 +38,16 @@
                 "type": "array"
             },
             "codeClass": null,
-            "userConfig": {},
-            "customConfigs": [],
+            "userConfig": {
+                "title": "City Bars"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "title",
+                    "type": "string"
+                }
+            ],
             "iconCls": "icon-linkedinstance",
             "expanded": true,
             "masterInstanceId": "ExtBox1-ext-gen2515"

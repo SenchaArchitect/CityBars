@@ -1,0 +1,15 @@
+{
+    "applicationName": "My Application",
+    "applicationId": "com.mycompany.myAppID",
+    "versionString": "1.0",
+    "iconName": "icon.png",
+    "inputPath": "/Users/philstrong/Documents/sandbox/citybars/",
+    "outputPath": "build/",
+    "configuration": "Debug",
+    "platform": "iOSSimulator",
+    "deviceType": "Universal",
+    "certificatePath": "",
+    "certificateAlias": "",
+    "sdkPath": "",
+    "androidAPILevel": ""
+}
