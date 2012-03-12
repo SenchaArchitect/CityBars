@@ -57,18 +57,16 @@ Ext.define('CityBars.controller.Business', {
             long,
             loc,
             marker,
-            info;
+            info, details;
 
         if (record) {
 
-            if (!me.details) {
-                me.details = Ext.create('CityBars.view.DetailPanel', {
-                    title: 'Details'
-                });
-            }
+            details = Ext.create('CityBars.view.DetailPanel', {
+                title: 'Details'
+            });
 
             // set the map
-            map = me.details.child('#detailMap');
+            map = details.child('#detailMap');
             lat = record.get('latitude');
             long = record.get('longitude');
 
@@ -82,11 +80,11 @@ Ext.define('CityBars.controller.Business', {
             map.getMap().setZoom(22);
 
             // set the info
-            info = me.details.child('#contact').child('#info');
+            info = details.child('#contact').child('#info');
             info.child('#photo').setData(record.data);
             info.child('#data').setData(record.data);
 
-            me.getMainNav().push(me.details);
+            me.getMainNav().push(details);
         }
     },
 

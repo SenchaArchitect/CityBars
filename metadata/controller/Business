@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e",
     "$viewOrder": 0,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen15335",
@@ -129,7 +129,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onListItemTap",
-                "implHandler": "var me = this,\n    map,\n    lat,\n    long,\n    loc,\n    marker,\n    info;\n\nif (record) {\n\n    if (!me.details) {\n        me.details = Ext.create('CityBars.view.DetailPanel', {\n            title: 'Details'\n        });\n    }\n\n    // set the map\n    map = me.details.child('#detailMap');\n    lat = record.get('latitude');\n    long = record.get('longitude');\n\n    map.setMapOptions({\n        zoom: 3\n    });\n    map.setMapCenter({\n        latitude: lat,\n        longitude: long\n    });\n    map.getMap().setZoom(22);\n\n    // set the info\n    info = me.details.child('#contact').child('#info');\n    info.child('#photo').setData(record.data);\n    info.child('#data').setData(record.data);\n\n    me.getMainNav().push(me.details);\n}",
+                "implHandler": "var me = this,\n    map,\n    lat,\n    long,\n    loc,\n    marker,\n    info, details;\n\nif (record) {\n\n    details = Ext.create('CityBars.view.DetailPanel', {\n        title: 'Details'\n    });\n\n    // set the map\n    map = details.child('#detailMap');\n    lat = record.get('latitude');\n    long = record.get('longitude');\n\n    map.setMapOptions({\n        zoom: 3\n    });\n    map.setMapCenter({\n        latitude: lat,\n        longitude: long\n    });\n    map.getMap().setZoom(22);\n\n    // set the info\n    info = details.child('#contact').child('#info');\n    info.child('#photo').setData(record.data);\n    info.child('#data').setData(record.data);\n\n    me.getMainNav().push(details);\n}",
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#dataList",
