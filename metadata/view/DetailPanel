@@ -7,6 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
+        "eventsRefGroup": null,
         "designer|userClassName": "DetailPanel",
         "designer|userAlias": "detailpanel"
     },
@@ -41,7 +43,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
                 "id": "contact",
+                "eventsRefGroup": null,
                 "designer|userClassName": "MyContainer2",
                 "title": "Contact"
             },
@@ -57,9 +61,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "functionsRefGroup": null,
                         "id": "info",
                         "padding": 10,
                         "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>\n\t\t<h2>{name}</h2>\n\t\t<div class=\"info\">\n\t\t{address1}<br/>\n\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t</div>",
+                        "eventsRefGroup": null,
                         "layout": "hbox",
                         "designer|userClassName": "MyContainer5"
                     },
@@ -112,6 +118,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "functionsRefGroup": null,
+                        "eventsRefGroup": null,
                         "layout": "hbox",
                         "designer|userClassName": "MyContainer3",
                         "container|pack": "center"

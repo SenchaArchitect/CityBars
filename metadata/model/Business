@@ -7,6 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
+        "associations": null,
+        "fields": "ExtBox1-ext-gen11600|ExtBox1-ext-gen11611|ExtBox1-ext-gen11624|ExtBox1-ext-gen11639|ExtBox1-ext-gen11656|ExtBox1-ext-gen12130|ExtBox1-ext-gen12151|ExtBox1-ext-gen12174|ExtBox1-ext-gen12199|ExtBox1-ext-gen12226|ExtBox1-ext-gen13876|ExtBox1-ext-gen13907",
+        "proxy": null,
+        "validations": null,
         "designer|userClassName": "Business"
     },
     "customConfigs": [],

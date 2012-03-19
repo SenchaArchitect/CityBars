@@ -7,7 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "designer|initialView": true,
+        "eventsRefGroup": null,
         "designer|userClassName": "MainNav",
         "designer|userAlias": "mainnav"
     },

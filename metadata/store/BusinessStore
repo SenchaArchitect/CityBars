@@ -7,8 +7,15 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "model": "Business",
         "storeId": "BusinessStore",
+        "fields": null,
+        "proxy": "ExtBox1-ext-gen14353",
+        "filters": null,
+        "grouper": null,
+        "sorters": null,
+        "eventsRefGroup": null,
         "designer|userClassName": "BusinessStore"
     },
     "customConfigs": [],
@@ -25,6 +32,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "reader": "ExtBox1-ext-gen14360",
+                "eventsRefGroup": null,
                 "designer|userClassName": "MyJsonPProxy"
             },
             "customConfigs": [],

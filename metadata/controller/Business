@@ -7,8 +7,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": "ExtBox1-ext-gen16437|ExtBox1-ext-gen16514",
         "designer|init": "",
         "designer|launch": "var me = this;\n\nExt.Viewport.setMasked({ message: 'Loading...' });\n\n// get the location, then...\nme.getLocation(function (location) {\n\n    // then use Yelp to get the businesses\n    me.getBusinesses(location, function (store) {\n\n        // then bind data to list and show it\n        me.getDataList().setStore(store);\n\n        Ext.Viewport.setMasked(false);\n    });\n});",
+        "eventsRefGroup": "ExtBox1-ext-gen17803",
         "designer|userClassName": "Business"
     },
     "customConfigs": [],
