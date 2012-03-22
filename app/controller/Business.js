@@ -31,25 +31,6 @@ Ext.define('CityBars.controller.Business', {
         }
     },
 
-    launch: function() {
-        var me = this;
-
-        Ext.Viewport.setMasked({ message: 'Loading...' });
-
-        // get the location, then...
-        me.getLocation(function (location) {
-
-            // then use Yelp to get the businesses
-            me.getBusinesses(location, function (store) {
-
-                // then bind data to list and show it
-                me.getDataList().setStore(store);
-
-                Ext.Viewport.setMasked(false);
-            });
-        });
-    },
-
     onListItemTap: function(dataview, index, target, record, e, options) {
         var me = this,
             map,
@@ -116,6 +97,24 @@ Ext.define('CityBars.controller.Business', {
 
         store.load(function() {
             callback(store);
+        });
+    },
+
+    launch: function() {
+        var me = this;
+
+        Ext.Viewport.setMasked({ message: 'Loading...' });
+        // get the location, then...
+        me.getLocation(function (location) {
+
+            // then use Yelp to get the businesses
+            me.getBusinesses(location, function (store) {
+
+                // then bind data to list and show it
+                me.getDataList().setStore(store);
+
+                Ext.Viewport.setMasked(false);
+            });
         });
     }
 

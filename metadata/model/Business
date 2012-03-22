@@ -7,12 +7,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "associations": null,
+        "associations": "",
         "fields": "ExtBox1-ext-gen11600|ExtBox1-ext-gen11611|ExtBox1-ext-gen11624|ExtBox1-ext-gen11639|ExtBox1-ext-gen11656|ExtBox1-ext-gen12130|ExtBox1-ext-gen12151|ExtBox1-ext-gen12174|ExtBox1-ext-gen12199|ExtBox1-ext-gen12226|ExtBox1-ext-gen13876|ExtBox1-ext-gen13907",
-        "proxy": null,
-        "validations": null,
-        "designer|userClassName": "Business"
+        "proxy": "",
+        "validations": "",
+        "designer|userClassName": "Business",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "1a7b373d-09ea-4801-ac4e-48a72712a4fd",
@@ -28,9 +28,11 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "id",
                 "type": "int",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -44,8 +46,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "name",
-                "designer|userClassName": "MyField1"
+                "designer|userClassName": "MyField1",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -59,8 +63,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "latitude",
-                "designer|userClassName": "MyField2"
+                "designer|userClassName": "MyField2",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -74,8 +80,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "longitude",
-                "designer|userClassName": "MyField3"
+                "designer|userClassName": "MyField3",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -89,8 +97,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "address1",
-                "designer|userClassName": "MyField4"
+                "designer|userClassName": "MyField4",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -104,8 +114,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "address2",
-                "designer|userClassName": "MyField5"
+                "designer|userClassName": "MyField5",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -119,8 +131,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "address3",
-                "designer|userClassName": "MyField6"
+                "designer|userClassName": "MyField6",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -134,8 +148,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "phone",
-                "designer|userClassName": "MyField7"
+                "designer|userClassName": "MyField7",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -149,8 +165,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "state_code",
-                "designer|userClassName": "MyField8"
+                "designer|userClassName": "MyField8",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -164,8 +182,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "mobile_url",
-                "designer|userClassName": "MyField9"
+                "designer|userClassName": "MyField9",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -179,8 +199,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "rating_img_url_small",
-                "designer|userClassName": "MyField10"
+                "designer|userClassName": "MyField10",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -194,8 +216,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "photo_url",
-                "designer|userClassName": "MyField11"
+                "designer|userClassName": "MyField11",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true

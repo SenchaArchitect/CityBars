@@ -7,11 +7,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
         "designer|initialView": true,
-        "eventsRefGroup": null,
+        "eventsRefGroup": "",
+        "navigationBarRefGroup": "ExtBox1-ext-gen2012",
         "designer|userClassName": "MainNav",
-        "designer|userAlias": "mainnav"
+        "designer|userAlias": "mainnav",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
@@ -27,7 +28,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyNavigationBar"
+                "eventsRefGroup": "",
+                "designer|userClassName": "MyNavigationBar",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true

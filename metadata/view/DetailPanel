@@ -7,10 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "eventsRefGroup": null,
+        "eventsRefGroup": "",
+        "tabBarRefGroup": "ExtBox1-ext-gen5357",
         "designer|userClassName": "DetailPanel",
-        "designer|userAlias": "detailpanel"
+        "designer|userAlias": "detailpanel",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
@@ -28,7 +29,9 @@
             "userConfig": {
                 "docked": "top",
                 "ui": "light",
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyTabBar",
+                "functionsRefGroup": "",
                 "container|pack": "center"
             },
             "customConfigs": [],
@@ -43,10 +46,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
                 "id": "contact",
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyContainer2",
+                "functionsRefGroup": "",
                 "title": "Contact"
             },
             "customConfigs": [],
@@ -61,13 +64,13 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "functionsRefGroup": null,
                         "id": "info",
                         "padding": 10,
                         "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>\n\t\t<h2>{name}</h2>\n\t\t<div class=\"info\">\n\t\t{address1}<br/>\n\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t</div>",
-                        "eventsRefGroup": null,
+                        "eventsRefGroup": "",
                         "layout": "hbox",
-                        "designer|userClassName": "MyContainer5"
+                        "designer|userClassName": "MyContainer5",
+                        "functionsRefGroup": ""
                     },
                     "customConfigs": [],
                     "expanded": false,
@@ -85,7 +88,9 @@
                                 "id": "photo",
                                 "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
                                 "width": 100,
-                                "designer|userClassName": "MyComponent"
+                                "eventsRefGroup": "",
+                                "designer|userClassName": "MyComponent",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -102,7 +107,9 @@
                                 "id": "data",
                                 "padding": 10,
                                 "tpl": "<h2>{name}</h2>\n\t\t\t<div class=\"info\">\n\t\t\t{address1}<br/>\n\t\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t\t</div>",
-                                "designer|userClassName": "MyComponent1"
+                                "eventsRefGroup": "",
+                                "designer|userClassName": "MyComponent1",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -118,10 +125,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "functionsRefGroup": null,
-                        "eventsRefGroup": null,
+                        "eventsRefGroup": "",
                         "layout": "hbox",
                         "designer|userClassName": "MyContainer3",
+                        "functionsRefGroup": "",
                         "container|pack": "center"
                     },
                     "customConfigs": [],
@@ -137,8 +144,10 @@
                             "codeClass": null,
                             "userConfig": {
                                 "width": 100,
+                                "eventsRefGroup": "",
                                 "text": "Call",
-                                "designer|userClassName": "MyButton"
+                                "designer|userClassName": "MyButton",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -153,7 +162,9 @@
                             "codeClass": null,
                             "userConfig": {
                                 "width": 57,
-                                "designer|userClassName": "MySpacer"
+                                "eventsRefGroup": "",
+                                "designer|userClassName": "MySpacer",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -168,8 +179,10 @@
                             "codeClass": null,
                             "userConfig": {
                                 "width": 100,
+                                "eventsRefGroup": "",
                                 "text": "More",
-                                "designer|userClassName": "MyButton1"
+                                "designer|userClassName": "MyButton1",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -189,7 +202,9 @@
             "userConfig": {
                 "height": null,
                 "id": "detailMap",
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyMap",
+                "functionsRefGroup": "",
                 "title": "Map"
             },
             "customConfigs": [],

@@ -7,11 +7,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": "ExtBox1-ext-gen16437|ExtBox1-ext-gen16514",
+        "actionsRefGroup": "ExtBox1-ext-gen17803",
+        "refsRefGroup": "ExtBox1-ext-gen15335|ExtBox1-ext-gen15624|ExtBox1-ext-gen15913|ExtBox1-ext-gen16147",
         "designer|init": "",
-        "designer|launch": "var me = this;\n\nExt.Viewport.setMasked({ message: 'Loading...' });\n\n// get the location, then...\nme.getLocation(function (location) {\n\n    // then use Yelp to get the businesses\n    me.getBusinesses(location, function (store) {\n\n        // then bind data to list and show it\n        me.getDataList().setStore(store);\n\n        Ext.Viewport.setMasked(false);\n    });\n});",
-        "eventsRefGroup": "ExtBox1-ext-gen17803",
-        "designer|userClassName": "Business"
+        "beforeFiltersRefGroup": "",
+        "designer|launch": "ExtBox1-ext-gen3472",
+        "routesRefGroup": "",
+        "eventsRefGroup": "",
+        "designer|userClassName": "Business",
+        "functionsRefGroup": "ExtBox1-ext-gen16437|ExtBox1-ext-gen16514"
     },
     "customConfigs": [],
     "designerId": "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e",
@@ -136,6 +140,23 @@
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#dataList",
                 "designer|userClassName": "onListItemTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen3472",
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "designer|params": [],
+                "implHandler": "var me = this;\n\nExt.Viewport.setMasked({ message: 'Loading...' });\n// get the location, then...\nme.getLocation(function (location) {\n\n    // then use Yelp to get the businesses\n    me.getBusinesses(location, function (store) {\n\n        // then bind data to list and show it\n        me.getDataList().setStore(store);\n\n        Ext.Viewport.setMasked(false);\n    });\n});",
+                "designer|userClassName": "launch"
             },
             "customConfigs": [],
             "expanded": true

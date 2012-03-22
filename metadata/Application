@@ -7,9 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "actionsRefGroup": "",
         "models": [
             "Business"
         ],
+        "refsRefGroup": "",
         "stores": [
             "BusinessStore"
         ],
@@ -18,8 +20,13 @@
             "ListContainer",
             "DetailPanel"
         ],
+        "beforeFiltersRefGroup": "",
         "designer|launch": "",
-        "name": "CityBars"
+        "routesRefGroup": "",
+        "eventsRefGroup": "",
+        "name": "CityBars",
+        "viewport": "",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "application",

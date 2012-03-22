@@ -7,16 +7,16 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
         "model": "Business",
         "storeId": "BusinessStore",
-        "fields": null,
+        "fields": "",
         "proxy": "ExtBox1-ext-gen14353",
-        "filters": null,
-        "grouper": null,
-        "sorters": null,
-        "eventsRefGroup": null,
-        "designer|userClassName": "BusinessStore"
+        "filters": "",
+        "grouper": "",
+        "sorters": "",
+        "eventsRefGroup": "",
+        "designer|userClassName": "BusinessStore",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "b866f522-624d-4bde-a112-b25880c8285f",
@@ -32,10 +32,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
-                "reader": "ExtBox1-ext-gen14360",
-                "eventsRefGroup": null,
-                "designer|userClassName": "MyJsonPProxy"
+                "readerRefGroup": "ExtBox1-ext-gen14360",
+                "writerRefGroup": "",
+                "eventsRefGroup": "",
+                "designer|userClassName": "MyJsonPProxy",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true,

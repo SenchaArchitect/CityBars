@@ -7,11 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "eventsRefGroup": null,
+        "eventsRefGroup": "",
         "layout": "fit",
         "designer|userClassName": "ListContainer",
-        "designer|userAlias": "listcontainer"
+        "designer|userAlias": "listcontainer",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
@@ -29,8 +29,12 @@
             "userConfig": {
                 "id": "dataList",
                 "itemId": null,
+                "eventsRefGroup": "",
                 "itemTpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>",
-                "designer|userClassName": "MyList"
+                "indexBar": "",
+                "pluginsRefGroup": "",
+                "designer|userClassName": "MyList",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
