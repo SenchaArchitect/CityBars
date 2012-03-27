@@ -21,17 +21,14 @@ Ext.application({
     models: [
         'Business'
     ],
-
     stores: [
         'BusinessStore'
     ],
-
     views: [
         'MainNav',
         'ListContainer',
         'DetailPanel'
     ],
-
     name: 'CityBars',
 
     controllers: [
@@ -39,6 +36,8 @@ Ext.application({
     ],
 
     launch: function() {
+
         Ext.create('CityBars.view.MainNav', {fullscreen: true});
     }
+
 });

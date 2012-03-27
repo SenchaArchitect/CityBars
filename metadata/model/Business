@@ -7,12 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.4957682332023978,
-        "fields": 0.46765488386154175,
-        "proxy": 0.5672498277854174,
-        "validations": 0.9769476428627968,
-        "designer|userClassName": "Business",
-        "functionsRefGroup": 0.9099104483611882
+        "designer|userClassName": "Business"
     },
     "customConfigs": [],
     "designerId": "1a7b373d-09ea-4801-ac4e-48a72712a4fd",
@@ -28,11 +23,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.47024101624265313,
                 "name": "id",
                 "type": "int",
-                "designer|userClassName": "MyField",
-                "functionsRefGroup": 0.76457200339064
+                "designer|userClassName": "MyField"
             },
             "customConfigs": [],
             "expanded": true
@@ -46,10 +39,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.8945860606618226,
                 "name": "name",
-                "designer|userClassName": "MyField1",
-                "functionsRefGroup": 0.10528982547111809
+                "designer|userClassName": "MyField1"
             },
             "customConfigs": [],
             "expanded": true
@@ -63,10 +54,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.2697190036997199,
                 "name": "latitude",
-                "designer|userClassName": "MyField2",
-                "functionsRefGroup": 0.08534220093861222
+                "designer|userClassName": "MyField2"
             },
             "customConfigs": [],
             "expanded": true
@@ -80,10 +69,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5071768851485103,
                 "name": "longitude",
-                "designer|userClassName": "MyField3",
-                "functionsRefGroup": 0.5701193746645004
+                "designer|userClassName": "MyField3"
             },
             "customConfigs": [],
             "expanded": true
@@ -97,10 +84,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6847392020281404,
                 "name": "address1",
-                "designer|userClassName": "MyField4",
-                "functionsRefGroup": 0.6882123139221221
+                "designer|userClassName": "MyField4"
             },
             "customConfigs": [],
             "expanded": true
@@ -114,10 +99,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6662450840231031,
                 "name": "address2",
-                "designer|userClassName": "MyField5",
-                "functionsRefGroup": 0.0024376162327826023
+                "designer|userClassName": "MyField5"
             },
             "customConfigs": [],
             "expanded": true
@@ -131,10 +114,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5251219947822392,
                 "name": "address3",
-                "designer|userClassName": "MyField6",
-                "functionsRefGroup": 0.6058745814952999
+                "designer|userClassName": "MyField6"
             },
             "customConfigs": [],
             "expanded": true
@@ -148,10 +129,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5038658934645355,
                 "name": "phone",
-                "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.08903199736960232
+                "designer|userClassName": "MyField7"
             },
             "customConfigs": [],
             "expanded": true
@@ -165,10 +144,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6338334511965513,
                 "name": "state_code",
-                "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.9896061415784061
+                "designer|userClassName": "MyField8"
             },
             "customConfigs": [],
             "expanded": true
@@ -182,10 +159,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9803761686198413,
                 "name": "mobile_url",
-                "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.8813773693982512
+                "designer|userClassName": "MyField9"
             },
             "customConfigs": [],
             "expanded": true
@@ -199,10 +174,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.4031751586589962,
                 "name": "rating_img_url_small",
-                "designer|userClassName": "MyField10",
-                "functionsRefGroup": 0.4979797382839024
+                "designer|userClassName": "MyField10"
             },
             "customConfigs": [],
             "expanded": true
@@ -216,10 +189,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9127075353171676,
                 "name": "photo_url",
-                "designer|userClassName": "MyField11",
-                "functionsRefGroup": 0.7314026777166873
+                "designer|userClassName": "MyField11"
             },
             "customConfigs": [],
             "expanded": true

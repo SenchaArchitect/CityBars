@@ -7,11 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.12299301661550999,
         "models": [
             "Business"
         ],
-        "refsRefGroup": 0.28420702554285526,
         "stores": [
             "BusinessStore"
         ],
@@ -20,13 +18,7 @@
             "ListContainer",
             "DetailPanel"
         ],
-        "beforeFiltersRefGroup": 0.8897055734414607,
-        "designer|launch": 0.7322554690763354,
-        "routesRefGroup": 0.8144688629545271,
-        "eventsRefGroup": 0.5659201815724373,
-        "name": "CityBars",
-        "viewport": 0.2454535139258951,
-        "functionsRefGroup": 0.38737125415354967
+        "name": "CityBars"
     },
     "customConfigs": [],
     "designerId": "application",
