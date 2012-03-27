@@ -7,11 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "eventsRefGroup": "",
+        "eventsRefGroup": 0.48674185457639396,
         "layout": "fit",
         "designer|userClassName": "ListContainer",
         "designer|userAlias": "listcontainer",
-        "functionsRefGroup": ""
+        "functionsRefGroup": 0.20620844000950456
     },
     "customConfigs": [],
     "designerId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
@@ -29,12 +29,12 @@
             "userConfig": {
                 "id": "dataList",
                 "itemId": null,
-                "eventsRefGroup": "",
+                "eventsRefGroup": 0.37455554376356304,
                 "itemTpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>",
-                "indexBar": "",
-                "pluginsRefGroup": "",
+                "indexBar": 0.5449052820913494,
+                "pluginsRefGroup": 0.13026421330869198,
                 "designer|userClassName": "MyList",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.3434383594430983
             },
             "customConfigs": [],
             "expanded": true

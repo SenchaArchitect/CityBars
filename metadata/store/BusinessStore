@@ -9,14 +9,14 @@
     "userConfig": {
         "model": "Business",
         "storeId": "BusinessStore",
-        "fields": "",
-        "proxy": "ExtBox1-ext-gen14353",
-        "filters": "",
-        "grouper": "",
-        "sorters": "",
-        "eventsRefGroup": "",
+        "fields": 0.9598876524250954,
+        "proxy": 0.9371947960462421,
+        "filters": 0.46242828108370304,
+        "grouper": 0.7380672544240952,
+        "sorters": 0.7518955506384373,
+        "eventsRefGroup": 0.7550120155792683,
         "designer|userClassName": "BusinessStore",
-        "functionsRefGroup": ""
+        "functionsRefGroup": 0.7506704409606755
     },
     "customConfigs": [],
     "designerId": "b866f522-624d-4bde-a112-b25880c8285f",
@@ -32,11 +32,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": "ExtBox1-ext-gen14360",
-                "writerRefGroup": "",
-                "eventsRefGroup": "",
+                "readerRefGroup": 0.2325190354604274,
+                "writerRefGroup": 0.8774866426829249,
+                "eventsRefGroup": 0.8478978700004518,
                 "designer|userClassName": "MyJsonPProxy",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.5659887699875981
             },
             "customConfigs": [],
             "expanded": true,

@@ -7,15 +7,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": "ExtBox1-ext-gen17803",
-        "refsRefGroup": "ExtBox1-ext-gen15335|ExtBox1-ext-gen15624|ExtBox1-ext-gen15913|ExtBox1-ext-gen16147",
-        "designer|init": "",
-        "beforeFiltersRefGroup": "",
-        "designer|launch": "ExtBox1-ext-gen3472",
-        "routesRefGroup": "",
-        "eventsRefGroup": "",
+        "actionsRefGroup": 0.1097374171949923,
+        "refsRefGroup": 0.9241734312381595,
+        "designer|init": 0.8531943024136126,
+        "beforeFiltersRefGroup": 0.9065411139745265,
+        "designer|launch": 0.3753843803424388,
+        "routesRefGroup": 0.031257075257599354,
+        "eventsRefGroup": 0.31593336327932775,
         "designer|userClassName": "Business",
-        "functionsRefGroup": "ExtBox1-ext-gen16437|ExtBox1-ext-gen16514"
+        "functionsRefGroup": 0.42173149809241295
     },
     "customConfigs": [],
     "designerId": "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e",

@@ -7,12 +7,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": "",
-        "fields": "ExtBox1-ext-gen11600|ExtBox1-ext-gen11611|ExtBox1-ext-gen11624|ExtBox1-ext-gen11639|ExtBox1-ext-gen11656|ExtBox1-ext-gen12130|ExtBox1-ext-gen12151|ExtBox1-ext-gen12174|ExtBox1-ext-gen12199|ExtBox1-ext-gen12226|ExtBox1-ext-gen13876|ExtBox1-ext-gen13907",
-        "proxy": "",
-        "validations": "",
+        "associations": 0.4957682332023978,
+        "fields": 0.46765488386154175,
+        "proxy": 0.5672498277854174,
+        "validations": 0.9769476428627968,
         "designer|userClassName": "Business",
-        "functionsRefGroup": ""
+        "functionsRefGroup": 0.9099104483611882
     },
     "customConfigs": [],
     "designerId": "1a7b373d-09ea-4801-ac4e-48a72712a4fd",
@@ -28,11 +28,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.47024101624265313,
                 "name": "id",
                 "type": "int",
                 "designer|userClassName": "MyField",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.76457200339064
             },
             "customConfigs": [],
             "expanded": true
@@ -46,10 +46,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.8945860606618226,
                 "name": "name",
                 "designer|userClassName": "MyField1",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.10528982547111809
             },
             "customConfigs": [],
             "expanded": true
@@ -63,10 +63,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.2697190036997199,
                 "name": "latitude",
                 "designer|userClassName": "MyField2",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.08534220093861222
             },
             "customConfigs": [],
             "expanded": true
@@ -80,10 +80,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.5071768851485103,
                 "name": "longitude",
                 "designer|userClassName": "MyField3",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.5701193746645004
             },
             "customConfigs": [],
             "expanded": true
@@ -97,10 +97,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.6847392020281404,
                 "name": "address1",
                 "designer|userClassName": "MyField4",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.6882123139221221
             },
             "customConfigs": [],
             "expanded": true
@@ -114,10 +114,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.6662450840231031,
                 "name": "address2",
                 "designer|userClassName": "MyField5",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.0024376162327826023
             },
             "customConfigs": [],
             "expanded": true
@@ -131,10 +131,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.5251219947822392,
                 "name": "address3",
                 "designer|userClassName": "MyField6",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.6058745814952999
             },
             "customConfigs": [],
             "expanded": true
@@ -148,10 +148,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.5038658934645355,
                 "name": "phone",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.08903199736960232
             },
             "customConfigs": [],
             "expanded": true
@@ -165,10 +165,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.6338334511965513,
                 "name": "state_code",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.9896061415784061
             },
             "customConfigs": [],
             "expanded": true
@@ -182,10 +182,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.9803761686198413,
                 "name": "mobile_url",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.8813773693982512
             },
             "customConfigs": [],
             "expanded": true
@@ -199,10 +199,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.4031751586589962,
                 "name": "rating_img_url_small",
                 "designer|userClassName": "MyField10",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.4979797382839024
             },
             "customConfigs": [],
             "expanded": true
@@ -216,10 +216,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": "",
+                "convert": 0.9127075353171676,
                 "name": "photo_url",
                 "designer|userClassName": "MyField11",
-                "functionsRefGroup": ""
+                "functionsRefGroup": 0.7314026777166873
             },
             "customConfigs": [],
             "expanded": true
