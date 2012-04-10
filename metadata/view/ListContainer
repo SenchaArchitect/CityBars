@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": false,
         "layout": "fit",
         "designer|userClassName": "ListContainer",
         "designer|userAlias": "listcontainer"
