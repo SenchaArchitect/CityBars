@@ -25,12 +25,11 @@ Ext.application({
         'BusinessStore'
     ],
     views: [
-        'MainNav',
+        'DetailPanel',
         'ListContainer',
-        'DetailPanel'
+        'MainNav'
     ],
     name: 'CityBars',
-
     controllers: [
         'Business'
     ],

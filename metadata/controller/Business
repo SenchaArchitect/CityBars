@@ -127,7 +127,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onListItemTap",
-                "implHandler": "var me = this,\n    map,\n    lat,\n    long,\n    loc,\n    marker,\n    info, details;\n\nif (record) {\n\n    details = Ext.create('CityBars.view.DetailPanel', {\n        title: 'Details'\n    });\n\n    // set the map\n    map = details.child('#detailMap');\n    lat = record.get('latitude');\n    long = record.get('longitude');\n\n    map.setMapOptions({\n        zoom: 3\n    });\n    map.setMapCenter({\n        latitude: lat,\n        longitude: long\n    });\n    map.getMap().setZoom(22);\n\n    // set the info\n    info = details.child('#contact').child('#info');\n    info.child('#photo').setData(record.data);\n    info.child('#data').setData(record.data);\n\n    me.getMainNav().push(details);\n}",
+                "implHandler": "var me = this,\n    map,\n    lat,\n    long,\n    loc,\n    marker,\n    info, details;\n\nif (record) {\n\n    details = Ext.create('CityBars.view.DetailPanel', {\n        title: 'Details'\n    });\n\n    // set the map\n    map = details.child('#detailMap');\n    lat = record.get('latitude');\n    long = record.get('longitude');\n\n    map.setMapOptions({\n        zoom: 18\n\n    });\n    map.setMapCenter({\n        latitude: lat,\n        longitude: long\n    });\n\n    // set the info\n    info = details.child('#contact').child('#info');\n    info.child('#photo').setData(record.data);\n    info.child('#data').setData(record.data);\n\n    me.getMainNav().push(details);\n}",
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#dataList",
@@ -137,7 +137,7 @@
             "expanded": true
         },
         {
-            "id": "ExtBox1-ext-gen3472",
+            "id": "ExtBox1-ext-gen4115",
             "type": "fixedfunction",
             "reference": {
                 "name": "items",
@@ -146,11 +146,11 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "launch",
-                "designer|params": [],
                 "implHandler": "var me = this;\n\nExt.Viewport.setMasked({ message: 'Loading...' });\n// get the location, then...\nme.getLocation(function (location) {\n\n    // then use Yelp to get the businesses\n    me.getBusinesses(location, function (store) {\n\n        // then bind data to list and show it\n        me.getDataList().setStore(store);\n\n        Ext.Viewport.setMasked(false);\n    });\n});",
                 "designer|userClassName": "launch"
             },
             "customConfigs": [],
+            "iconCls": "icon-basic-function",
             "expanded": true
         }
     ]

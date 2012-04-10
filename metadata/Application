@@ -1,5 +1,5 @@
 {
-    "id": "ExtBox1-ext-gen1883",
+    "id": "ExtBox1-ext-gen1760",
     "type": "application",
     "reference": {
         "name": "items",
@@ -14,14 +14,18 @@
             "BusinessStore"
         ],
         "views": [
-            "MainNav",
+            "DetailPanel",
             "ListContainer",
-            "DetailPanel"
+            "MainNav"
         ],
-        "name": "CityBars"
+        "name": "CityBars",
+        "controllers": [
+            "Business"
+        ]
     },
     "customConfigs": [],
     "designerId": "application",
     "$viewOrder": 0,
+    "iconCls": "icon-application",
     "expanded": true
 }

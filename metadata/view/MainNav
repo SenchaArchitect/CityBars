@@ -28,6 +28,7 @@
                 "designer|userClassName": "MyNavigationBar"
             },
             "customConfigs": [],
+            "iconCls": "icon-navbar",
             "expanded": true
         },
         {
