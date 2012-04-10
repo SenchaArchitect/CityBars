@@ -15,7 +15,6 @@
 
 Ext.define('CityBars.controller.Business', {
     extend: 'Ext.app.Controller',
-
     config: {
         refs: {
             dataList: '#dataList',
@@ -52,13 +51,13 @@ Ext.define('CityBars.controller.Business', {
             long = record.get('longitude');
 
             map.setMapOptions({
-                zoom: 3
+                zoom: 18
+
             });
             map.setMapCenter({
                 latitude: lat,
                 longitude: long
             });
-            map.getMap().setZoom(22);
 
             // set the info
             info = details.child('#contact').child('#info');

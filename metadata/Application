@@ -1,5 +1,5 @@
 {
-    "id": "ExtBox1-ext-gen1883",
+    "id": "ExtBox1-ext-gen1760",
     "type": "application",
     "reference": {
         "name": "items",
@@ -7,29 +7,25 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": "",
         "models": [
             "Business"
         ],
-        "refsRefGroup": "",
         "stores": [
             "BusinessStore"
         ],
         "views": [
-            "MainNav",
+            "DetailPanel",
             "ListContainer",
-            "DetailPanel"
+            "MainNav"
         ],
-        "beforeFiltersRefGroup": "",
-        "designer|launch": "",
-        "routesRefGroup": "",
-        "eventsRefGroup": "",
         "name": "CityBars",
-        "viewport": "",
-        "functionsRefGroup": ""
+        "controllers": [
+            "Business"
+        ]
     },
     "customConfigs": [],
     "designerId": "application",
     "$viewOrder": 0,
+    "iconCls": "icon-application",
     "expanded": true
 }

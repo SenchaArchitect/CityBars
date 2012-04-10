@@ -9,14 +9,7 @@
     "userConfig": {
         "model": "Business",
         "storeId": "BusinessStore",
-        "fields": "",
-        "proxy": "ExtBox1-ext-gen14353",
-        "filters": "",
-        "grouper": "",
-        "sorters": "",
-        "eventsRefGroup": "",
-        "designer|userClassName": "BusinessStore",
-        "functionsRefGroup": ""
+        "designer|userClassName": "BusinessStore"
     },
     "customConfigs": [],
     "designerId": "b866f522-624d-4bde-a112-b25880c8285f",
@@ -32,11 +25,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": "ExtBox1-ext-gen14360",
-                "writerRefGroup": "",
-                "eventsRefGroup": "",
-                "designer|userClassName": "MyJsonPProxy",
-                "functionsRefGroup": ""
+                "designer|userClassName": "MyJsonPProxy"
             },
             "customConfigs": [],
             "expanded": true,
