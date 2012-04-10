@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": false,
         "designer|userClassName": "DetailPanel",
         "designer|userAlias": "detailpanel"
     },
