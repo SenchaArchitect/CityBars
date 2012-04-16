@@ -6,10 +6,10 @@
     "inputPath": "/Users/philstrong/Documents/sandbox/citybars",
     "outputPath": "build/",
     "configuration": "Debug",
-    "platform": "iOSSimulator",
+    "platform": "Android",
     "deviceType": "Universal",
     "certificatePath": "",
     "certificateAlias": "",
-    "sdkPath": "",
+    "sdkPath": "/Users/philstrong/Documents/sandbox/citybars",
     "androidAPILevel": "7"
 }
