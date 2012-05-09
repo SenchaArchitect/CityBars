@@ -67,6 +67,12 @@
                 "app/model/Business.js"
             ],
             "className": "Business"
+        },
+        "30b6723d-05ca-4bb0-ab55-576dad013843": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
         }
     },
     "expandedState": {
