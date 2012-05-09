@@ -3,7 +3,7 @@
     "applicationId": "com.mycompany.myAppID",
     "versionString": "1.0",
     "iconName": "icon.png",
-    "inputPath": "/Users/philstrong/Code/citybars",
+    "inputPath": "./",
     "outputPath": "/Users/philstrong/Documents/sandbox/build/citybars",
     "configuration": "Debug",
     "platform": "iOSSimulator",

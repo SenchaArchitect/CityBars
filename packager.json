@@ -1,15 +1,16 @@
 {
-    "applicationName": "CityBars",
+    "applicationName": "My Application",
     "applicationId": "com.mycompany.myAppID",
+    "bundleSeedId": "",
     "versionString": "1.0",
     "iconName": "icon.png",
-    "inputPath": "/Users/philstrong/Documents/sandbox/citybars",
-    "outputPath": "build/",
+    "inputPath": "./",
+    "outputPath": "../build/",
     "configuration": "Debug",
     "platform": "iOSSimulator",
     "deviceType": "Universal",
-    "certificatePath": "",
+    "certificatePath": "/path/to/certificate.file",
     "certificateAlias": "",
-    "sdkPath": "",
+    "sdkPath": "/path/to/android-sdk",
     "androidAPILevel": "7"
 }
