@@ -48,15 +48,15 @@ Ext.define('CityBars.controller.Business', {
             // set the map
             map = details.child('#detailMap');
             lat = record.get('latitude');
-            long = record.get('longitude');
+            lon = record.get('longitude');
 
             map.setMapOptions({
                 zoom: 18
-
             });
+
             map.setMapCenter({
                 latitude: lat,
-                longitude: long
+                longitude: lon
             });
 
             // set the info

@@ -21,6 +21,10 @@
         "name": "CityBars",
         "controllers": [
             "Business"
+        ],
+        "designer|requires": [
+            "Ext.dataview.List",
+            "Ext.data.proxy.JsonP"
         ]
     },
     "customConfigs": [],
