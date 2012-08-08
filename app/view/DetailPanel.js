@@ -38,11 +38,11 @@ Ext.define('CityBars.view.DetailPanel', {
                         padding: 10,
                         tpl: [
                             '<img class="photo" src="{photo_url}" width="100" height="100"/>',
-                            '		<h2>{name}</h2>',
-                            '		<div class="info">',
-                            '		{address1}<br/>',
-                            '		<img src="{rating_img_url_small}"/>',
-                            '		</div>'
+                            '<h2>{name}</h2>',
+                            '<div class="info">',
+                            '    {address1}<br/>',
+                            '    <img src="{rating_img_url_small}"/>',
+                            '</div>'
                         ],
                         layout: {
                             type: 'hbox'
@@ -63,10 +63,10 @@ Ext.define('CityBars.view.DetailPanel', {
                                 padding: 10,
                                 tpl: [
                                     '<h2>{name}</h2>',
-                                    '			<div class="info">',
-                                    '			{address1}<br/>',
-                                    '			<img src="{rating_img_url_small}"/>',
-                                    '			</div>'
+                                    '<div class="info">',
+                                    '    {address1}<br/>',
+                                    '    <img src="{rating_img_url_small}"/>',
+                                    '</div>'
                                 ]
                             }
                         ]
