@@ -15,6 +15,7 @@
 
 Ext.define('CityBars.store.BusinessStore', {
     extend: 'Ext.data.Store',
+
     requires: [
         'CityBars.model.Business'
     ],

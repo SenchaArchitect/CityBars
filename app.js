@@ -18,11 +18,11 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
+
     requires: [
         'Ext.dataview.List',
         'Ext.data.proxy.JsonP'
     ],
-
     models: [
         'Business'
     ],

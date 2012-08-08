@@ -29,8 +29,8 @@ Ext.define('CityBars.view.DetailPanel', {
         items: [
             {
                 xtype: 'container',
-                id: 'contact',
                 title: 'Contact',
+                id: 'contact',
                 items: [
                     {
                         xtype: 'container',
@@ -98,8 +98,8 @@ Ext.define('CityBars.view.DetailPanel', {
             },
             {
                 xtype: 'map',
-                id: 'detailMap',
-                title: 'Map'
+                title: 'Map',
+                id: 'detailMap'
             }
         ]
     }

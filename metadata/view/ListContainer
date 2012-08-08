@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen2515",
     "type": "container",
     "reference": {
         "name": "items",
@@ -7,17 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "layout": "fit",
         "designer|userClassName": "ListContainer",
-        "designer|userAlias": "listcontainer"
+        "designer|userAlias": "listcontainer",
+        "layout": "fit"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen2515",
     "designerId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
-    "$viewOrder": 1,
-    "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen3871",
             "type": "list",
             "reference": {
                 "name": "items",
@@ -25,13 +21,29 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyList",
                 "id": "dataList",
-                "itemId": null,
-                "itemTpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>",
-                "designer|userClassName": "MyList"
+                "itemId": null
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "4036229e-afa2-4715-84aa-4110e88b06a0",
+            "cn": [
+                {
+                    "type": "template",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "itemTpl",
+                        "implHandler": [
+                            "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "0613e169-e356-409c-88b8-cb0daf10a414"
+                }
+            ]
         }
     ]
 }

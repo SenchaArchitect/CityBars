@@ -16,6 +16,7 @@
 Ext.define('CityBars.view.MainNav', {
     extend: 'Ext.navigation.View',
     alias: 'widget.mainnav',
+
     requires: [
         'CityBars.view.ListContainer'
     ],

@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen1760",
     "type": "application",
     "reference": {
         "name": "items",
@@ -7,6 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "requires": [
+            "Ext.dataview.List",
+            "Ext.data.proxy.JsonP"
+        ],
         "models": [
             "Business"
         ],
@@ -21,15 +24,8 @@
         "name": "CityBars",
         "controllers": [
             "Business"
-        ],
-        "designer|requires": [
-            "Ext.dataview.List",
-            "Ext.data.proxy.JsonP"
         ]
     },
-    "customConfigs": [],
-    "designerId": "application",
-    "$viewOrder": 0,
-    "iconCls": "icon-application",
-    "expanded": true
+    "id": "ExtBox1-ext-gen1760",
+    "designerId": "application"
 }

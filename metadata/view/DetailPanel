@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen5348",
     "type": "tabpanel",
     "reference": {
         "name": "items",
@@ -10,13 +9,10 @@
         "designer|userClassName": "DetailPanel",
         "designer|userAlias": "detailpanel"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen5348",
     "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
-    "$viewOrder": 2,
-    "expanded": false,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen5357",
             "type": "tabbar",
             "reference": {
                 "name": "tabBar",
@@ -24,17 +20,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "top",
-                "ui": "light",
+                "container|pack": "center",
                 "designer|userClassName": "MyTabBar",
-                "container|pack": "center"
+                "docked": "top",
+                "ui": "light"
             },
-            "customConfigs": [],
-            "iconCls": "icon-tab-bar",
-            "expanded": true
+            "designerId": "df123052-92f8-4500-beb6-970e26615c42"
         },
         {
-            "id": "ExtBox1-ext-gen5365",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -42,15 +35,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "id": "contact",
+                "title": "Contact",
                 "designer|userClassName": "MyContainer2",
-                "title": "Contact"
+                "id": "contact"
             },
-            "customConfigs": [],
-            "expanded": false,
+            "designerId": "a7c9ab84-ccee-4082-8a8e-7afc74fea2e9",
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen7331",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -58,17 +49,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyContainer5",
                         "id": "info",
                         "padding": 10,
-                        "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>\n\t\t<h2>{name}</h2>\n\t\t<div class=\"info\">\n\t\t{address1}<br/>\n\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t</div>",
-                        "layout": "hbox",
-                        "designer|userClassName": "MyContainer5"
+                        "layout": "hbox"
                     },
-                    "customConfigs": [],
-                    "expanded": false,
+                    "designerId": "0b88ff7a-18fd-46aa-aa2a-a0074b2465a2",
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen8219",
                             "type": "component",
                             "reference": {
                                 "name": "items",
@@ -76,17 +64,32 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "designer|userClassName": "MyComponent",
                                 "height": 100,
                                 "id": "photo",
-                                "tpl": "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
-                                "width": 100,
-                                "designer|userClassName": "MyComponent"
+                                "width": 100
                             },
-                            "customConfigs": [],
-                            "expanded": true
+                            "designerId": "616d4c28-3e1b-4f55-b3a3-863c5f7fd84b",
+                            "cn": [
+                                {
+                                    "type": "template",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "tpl",
+                                        "implHandler": [
+                                            "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>"
+                                        ],
+                                        "designer|displayName": "tpl"
+                                    },
+                                    "designerId": "ec796845-d565-45b8-b4ad-5e9c053cdd64"
+                                }
+                            ]
                         },
                         {
-                            "id": "ExtBox1-ext-gen8310",
                             "type": "component",
                             "reference": {
                                 "name": "items",
@@ -94,18 +97,58 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "designer|userClassName": "MyComponent1",
                                 "id": "data",
-                                "padding": 10,
-                                "tpl": "<h2>{name}</h2>\n\t\t\t<div class=\"info\">\n\t\t\t{address1}<br/>\n\t\t\t<img src=\"{rating_img_url_small}\"/>\n\t\t\t</div>",
-                                "designer|userClassName": "MyComponent1"
+                                "padding": 10
                             },
-                            "customConfigs": [],
-                            "expanded": true
+                            "designerId": "cf6f5a05-8b83-4545-8cbf-092a0784b401",
+                            "cn": [
+                                {
+                                    "type": "template",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "tpl",
+                                        "implHandler": [
+                                            "<h2>{name}</h2>",
+                                            "\t\t\t<div class=\"info\">",
+                                            "\t\t\t{address1}<br/>",
+                                            "\t\t\t<img src=\"{rating_img_url_small}\"/>",
+                                            "\t\t\t</div>"
+                                        ],
+                                        "designer|displayName": "tpl"
+                                    },
+                                    "designerId": "f03e0f27-ac7a-452b-bc6f-bee70e7b91c5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "template",
+                            "reference": {
+                                "name": "tpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "tpl",
+                                "implHandler": [
+                                    "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
+                                    "\t\t<h2>{name}</h2>",
+                                    "\t\t<div class=\"info\">",
+                                    "\t\t{address1}<br/>",
+                                    "\t\t<img src=\"{rating_img_url_small}\"/>",
+                                    "\t\t</div>"
+                                ],
+                                "designer|displayName": "tpl"
+                            },
+                            "designerId": "5d6e1885-b4c4-4e76-b9eb-de9c2f8b68f2"
                         }
                     ]
                 },
                 {
-                    "id": "ExtBox1-ext-gen8999",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -113,15 +156,13 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout": "hbox",
+                        "container|pack": "center",
                         "designer|userClassName": "MyContainer3",
-                        "container|pack": "center"
+                        "layout": "hbox"
                     },
-                    "customConfigs": [],
-                    "expanded": false,
+                    "designerId": "57826839-31be-48ed-ac57-1f1ba642a04d",
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen9240",
                             "type": "button",
                             "reference": {
                                 "name": "items",
@@ -129,15 +170,13 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "designer|userClassName": "MyButton",
                                 "width": 100,
-                                "text": "Call",
-                                "designer|userClassName": "MyButton"
+                                "text": "Call"
                             },
-                            "customConfigs": [],
-                            "expanded": true
+                            "designerId": "ece3ad08-ed72-4875-9e21-31b3c3bdb0f3"
                         },
                         {
-                            "id": "ExtBox1-ext-gen9571",
                             "type": "spacer",
                             "reference": {
                                 "name": "items",
@@ -145,14 +184,12 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 57,
-                                "designer|userClassName": "MySpacer"
+                                "designer|userClassName": "MySpacer",
+                                "width": 57
                             },
-                            "customConfigs": [],
-                            "expanded": true
+                            "designerId": "a37e66fa-61d0-49b0-ab90-61c12c5ccef7"
                         },
                         {
-                            "id": "ExtBox1-ext-gen9815",
                             "type": "button",
                             "reference": {
                                 "name": "items",
@@ -160,19 +197,17 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "designer|userClassName": "MyButton1",
                                 "width": 100,
-                                "text": "More",
-                                "designer|userClassName": "MyButton1"
+                                "text": "More"
                             },
-                            "customConfigs": [],
-                            "expanded": true
+                            "designerId": "e3ff8722-e30d-49f8-a9a8-d04d5389b56d"
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen10152",
             "type": "map",
             "reference": {
                 "name": "items",
@@ -180,13 +215,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": null,
-                "id": "detailMap",
+                "title": "Map",
                 "designer|userClassName": "MyMap",
-                "title": "Map"
+                "height": null,
+                "id": "detailMap"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "1746f8cf-68e1-41c9-a69d-a68703633d84"
         }
     ]
 }

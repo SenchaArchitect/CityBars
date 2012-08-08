@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen2005",
     "type": "navigationview",
     "reference": {
         "name": "items",
@@ -7,17 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "designer|userClassName": "MainNav",
-        "designer|userAlias": "mainnav"
+        "designer|userAlias": "mainnav",
+        "designer|initialView": true
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen2005",
     "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
-    "$viewOrder": 0,
-    "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen2012",
             "type": "navigationbar",
             "reference": {
                 "name": "navigationBar",
@@ -27,12 +23,9 @@
             "userConfig": {
                 "designer|userClassName": "MyNavigationBar"
             },
-            "customConfigs": [],
-            "iconCls": "icon-navbar",
-            "expanded": true
+            "designerId": "55089f46-6ed3-40b4-bb04-b9d42bcc932a"
         },
         {
-            "id": "ExtBox1-ext-gen5287",
             "type": "linkedinstance",
             "reference": {
                 "name": "items",
@@ -42,6 +35,7 @@
             "userConfig": {
                 "title": "City Bars"
             },
+            "designerId": "65121f7e-47d3-4bf4-8dcc-293989bac56b",
             "customConfigs": [
                 {
                     "group": "(Custom Properties)",
@@ -49,8 +43,6 @@
                     "type": "string"
                 }
             ],
-            "iconCls": "icon-linkedinstance",
-            "expanded": true,
             "masterInstanceId": "ExtBox1-ext-gen2515"
         }
     ]

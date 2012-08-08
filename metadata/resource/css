@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen6667",
     "type": "cssresource",
     "reference": {
         "name": "items",
@@ -9,8 +8,6 @@
     "userConfig": {
         "url": "citybars.css"
     },
-    "customConfigs": [],
-    "designerId": "df0136db-b728-4765-8a13-e6ad9fd1a9ff",
-    "$viewOrder": 0,
-    "expanded": true
+    "id": "ExtBox1-ext-gen6667",
+    "designerId": "df0136db-b728-4765-8a13-e6ad9fd1a9ff"
 }

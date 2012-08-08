@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen15052",
     "type": "controller",
     "reference": {
         "name": "items",
@@ -9,13 +8,10 @@
     "userConfig": {
         "designer|userClassName": "Business"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen15052",
     "designerId": "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e",
-    "$viewOrder": 0,
-    "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen15335",
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -23,15 +19,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "dataList",
                 "ref": "dataList",
-                "selector": "#dataList",
-                "designer|userClassName": "dataList"
+                "selector": "#dataList"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "29a547db-e122-4051-95d2-f35e39515f1e"
         },
         {
-            "id": "ExtBox1-ext-gen15624",
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -39,15 +33,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "listCard",
                 "ref": "listCard",
-                "selector": "#listCard",
-                "designer|userClassName": "listCard"
+                "selector": "#listCard"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "ac584b3b-1a09-4137-ada3-eaf3b0895d9b"
         },
         {
-            "id": "ExtBox1-ext-gen15913",
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -55,15 +47,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "mainNav",
                 "ref": "mainNav",
-                "selector": "mainnav",
-                "designer|userClassName": "mainNav"
+                "selector": "mainnav"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "dcccfdc5-6cf1-4636-8cb6-19f69dcca72a"
         },
         {
-            "id": "ExtBox1-ext-gen16147",
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -71,15 +61,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "detailCard",
                 "ref": "detailCard",
-                "selector": "#detailCard",
-                "designer|userClassName": "detailCard"
+                "selector": "#detailCard"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "c63afc32-69f5-4b83-bed8-f7d760cc2ba0"
         },
         {
-            "id": "ExtBox1-ext-gen16437",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -87,6 +75,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "getLocation",
                 "fn": "getLocation",
                 "designer|params": [
                     "callback"
@@ -100,14 +89,11 @@
                     "        // give a warning for error",
                     "    });",
                     "}"
-                ],
-                "designer|userClassName": "getLocation"
+                ]
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "3885eee6-ec58-49e1-a432-5cfd4640cfa3"
         },
         {
-            "id": "ExtBox1-ext-gen16514",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -115,6 +101,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "getBusinesses",
                 "fn": "getBusinesses",
                 "designer|params": [
                     "location",
@@ -138,14 +125,11 @@
                     "store.load(function() {",
                     "    callback(store);",
                     "});"
-                ],
-                "designer|userClassName": "getBusinesses"
+                ]
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "0d1be29d-0940-4265-877a-750f8738f6d9"
         },
         {
-            "id": "ExtBox1-ext-gen17803",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -153,6 +137,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onListItemTap",
                 "fn": "onListItemTap",
                 "implHandler": [
                     "var me = this,",
@@ -193,14 +178,11 @@
                 ],
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "#dataList",
-                "designer|userClassName": "onListItemTap"
+                "designer|controlQuery": "#dataList"
             },
-            "customConfigs": [],
-            "expanded": true
+            "designerId": "d8288a0b-efe9-49bf-8651-5eb9cc5056eb"
         },
         {
-            "id": "ExtBox1-ext-gen4115",
             "type": "fixedfunction",
             "reference": {
                 "name": "items",
@@ -208,6 +190,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "launch",
                 "fn": "launch",
                 "implHandler": [
                     "var me = this;",
@@ -225,12 +208,9 @@
                     "        Ext.Viewport.setMasked(false);",
                     "    });",
                     "});"
-                ],
-                "designer|userClassName": "launch"
+                ]
             },
-            "customConfigs": [],
-            "iconCls": "icon-basic-function",
-            "expanded": true
+            "designerId": "f1a7c610-b00d-4c71-9025-f8ba6a0fbbb2"
         }
     ]
 }

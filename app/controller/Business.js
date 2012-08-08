@@ -15,6 +15,7 @@
 
 Ext.define('CityBars.controller.Business', {
     extend: 'Ext.app.Controller',
+
     config: {
         refs: {
             dataList: '#dataList',

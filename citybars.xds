@@ -3,20 +3,21 @@
     "settings": {
         "urlPrefix": "http://localhost/sandbox/citybars",
         "spacesToIndent": 4,
-        "codeGenFormat": "Class",
         "exportPath": "",
-        "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.1/",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
-        "lineEnding": "LF",
         "instantiateStore": true,
-        "genTimestamps": false,
         "saveOnDeploy": false,
-        "appName": "MyApp",
-        "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true"
+        "appName": "MyApp"
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": "442",
+    "xdsBuild": 565,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
     "framework": "touch20",
     "topInstanceFileMap": {
         "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
@@ -72,13 +73,42 @@
                 "metadata/resource/css"
             ],
             "className": "css"
+        },
+        "fb54b0a9-fdd8-4f42-9298-6dafa3811154": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "2e700068-d10c-4cc2-babe-ca2fdcc02ac0": {
+            "paths": [
+                "metadata/resource/GoogleMapsAPI"
+            ],
+            "className": "GoogleMapsAPI"
         }
     },
-    "expandedState": {
-        "data": true,
-        "model": true,
-        "component": true,
-        "controller": true,
-        "resource": true
+    "viewOrderMap": {
+        "view": [
+            "ca7e954f-cecd-4e74-8620-848212a11e02",
+            "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
+            "3e7eb33b-8bf5-47c1-b6db-b85e588a629a"
+        ],
+        "store": [
+            "b866f522-624d-4bde-a112-b25880c8285f"
+        ],
+        "controller": [
+            "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e"
+        ],
+        "model": [
+            "1a7b373d-09ea-4801-ac4e-48a72712a4fd"
+        ],
+        "resource": [
+            "fb54b0a9-fdd8-4f42-9298-6dafa3811154",
+            "df0136db-b728-4765-8a13-e6ad9fd1a9ff",
+            "2e700068-d10c-4cc2-babe-ca2fdcc02ac0"
+        ],
+        "app": [
+            "application"
+        ]
     }
 }

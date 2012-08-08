@@ -15,6 +15,7 @@
 
 Ext.define('CityBars.model.Business', {
     extend: 'Ext.data.Model',
+
     config: {
         fields: [
             {
