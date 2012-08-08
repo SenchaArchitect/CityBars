@@ -1,14 +1,23 @@
 CityBars
 ================================
 
-An Sencha Touch 2 app built with Architect that uses geolocation, controllers, models, JSONP store, and a navigation view to display a list and detail view of bars near your current location.
+A Sencha Touch 2 app built with Architect that uses Yelp API to display local watering holes (pubs, bars, restaurants) per your current location.
 
-Check out the [tutorial](http://docs.sencha.com/architect/2-0/#!/guide/first_mobile_app).
+##### Features used in Architect
+- Controllers
+- Controller Actions
+- Linked Instances
+- Navigation View
+- CSS Resource
+- Models and Stores,
+- Geolocation
+
+Learn how to build it here; [tutorial](http://docs.sencha.com/architect/2-0/#!/guide/first_mobile_app).
 
 <img width=400 src="http://f.cl.ly/items/3G2X2B2M0x1V353g1B29/Screen%20Shot%202012-07-25%20at%205.03.26%20PM.png" />&nbsp;
 <img width=400 src="http://f.cl.ly/items/2d1L06350R0w0E0p1y3d/Screen%20Shot%202012-08-06%20at%2011.39.14%20PM.png" />
 
-##### Latest
+##### Latest Archive
 [CityBars.xda (build: 550)](https://github.com/downloads/SenchaArchitect/CityBars/citybars550.xda) - Architect archive
 
 ##### Previous versions of Architect
