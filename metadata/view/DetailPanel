@@ -114,10 +114,10 @@
                                         "designer|userClassName": "tpl",
                                         "implHandler": [
                                             "<h2>{name}</h2>",
-                                            "\t\t\t<div class=\"info\">",
-                                            "\t\t\t{address1}<br/>",
-                                            "\t\t\t<img src=\"{rating_img_url_small}\"/>",
-                                            "\t\t\t</div>"
+                                            "<div class=\"info\">",
+                                            "    {address1}<br/>",
+                                            "    <img src=\"{rating_img_url_small}\"/>",
+                                            "</div>"
                                         ],
                                         "designer|displayName": "tpl"
                                     },
@@ -136,11 +136,11 @@
                                 "designer|userClassName": "tpl",
                                 "implHandler": [
                                     "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
-                                    "\t\t<h2>{name}</h2>",
-                                    "\t\t<div class=\"info\">",
-                                    "\t\t{address1}<br/>",
-                                    "\t\t<img src=\"{rating_img_url_small}\"/>",
-                                    "\t\t</div>"
+                                    "<h2>{name}</h2>",
+                                    "<div class=\"info\">",
+                                    "    {address1}<br/>",
+                                    "    <img src=\"{rating_img_url_small}\"/>",
+                                    "</div>"
                                 ],
                                 "designer|displayName": "tpl"
                             },
