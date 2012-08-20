@@ -8,15 +8,9 @@
     "outputPath": "/Users/philstrong/Documents/sandbox/build/citybars",
     "configuration": "Debug",
     "platform": "iOSSimulator",
-    "deviceType": "iPad",
+    "deviceType": "Universal",
     "certificatePath": "",
     "certificateAlias": "",
     "sdkPath": "",
-    "androidAPILevel": "",
-    "orientations": [
-        "portrait",
-        "landscapeLeft",
-        "landscapeRight",
-        "portraitUpsideDown"
-    ]
+    "androidAPILevel": ""
 }
