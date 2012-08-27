@@ -63,7 +63,7 @@
             "userConfig": {
                 "designer|userClassName": "detailCard",
                 "ref": "detailCard",
-                "selector": "#detailCard"
+                "selector": "detailpanel"
             },
             "designerId": "c63afc32-69f5-4b83-bed8-f7d760cc2ba0"
         },
@@ -211,6 +211,25 @@
                 ]
             },
             "designerId": "f1a7c610-b00d-4c71-9025-f8ba6a0fbbb2"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onCallButtonTap",
+                "fn": "onCallButtonTap",
+                "implHandler": [
+                    "alert('call tap');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "detailpanel button[text='Call']"
+            },
+            "designerId": "70740668-3f6f-4c6c-9f9b-7661f1c0634b"
         }
     ]
 }
