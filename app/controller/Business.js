@@ -92,16 +92,14 @@ Ext.define('CityBars.controller.Business', {
         // You must use your own yelp key, available by registering (for free) with Yelp:
         // http://www.yelp.com/developers/getting_started/api_overview
         // (in this app, we use the Review Search API v1.0)
-        console.log('getBiz');
         var store = Ext.data.StoreManager.lookup('BusinessStore'),
+            yelpKey = '', // enter your yelp key here
             url = 'http://api.yelp.com/business_review_search' +
-            '?ywsid=rtGTuop7SdSQwCJwXr90Qw' +
+            '?ywsid=' + yelpKey +
             '&term=Bars' +
             '&lat=' + location.coords.latitude +
             '&long=' + location.coords.longitude;
-
         store.getProxy().setUrl(url);
-
         store.load(function() {
             callback(store);
         });
