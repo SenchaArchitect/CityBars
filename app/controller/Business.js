@@ -21,12 +21,15 @@ Ext.define('CityBars.controller.Business', {
             dataList: '#dataList',
             listCard: '#listCard',
             mainNav: 'mainnav',
-            detailCard: '#detailCard'
+            detailCard: 'detailpanel'
         },
 
         control: {
             "#dataList": {
                 itemtap: 'onListItemTap'
+            },
+            "detailpanel button[text='Call']": {
+                tap: 'onCallButtonTap'
             }
         }
     },
@@ -67,6 +70,10 @@ Ext.define('CityBars.controller.Business', {
 
             me.getMainNav().push(details);
         }
+    },
+
+    onCallButtonTap: function(button, e, options) {
+        alert('call tap');
     },
 
     getLocation: function(callback) {
