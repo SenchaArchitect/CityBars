@@ -83,7 +83,7 @@
                                         "implHandler": [
                                             "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>"
                                         ],
-                                        "designer|displayName": "tpl"
+                                        "designer|displayName": "tplPhoto"
                                     },
                                     "designerId": "ec796845-d565-45b8-b4ad-5e9c053cdd64"
                                 }
@@ -119,7 +119,7 @@
                                             "    <img src=\"{rating_img_url_small}\"/>",
                                             "</div>"
                                         ],
-                                        "designer|displayName": "tpl"
+                                        "designer|displayName": "tplData"
                                     },
                                     "designerId": "f03e0f27-ac7a-452b-bc6f-bee70e7b91c5"
                                 }
@@ -142,7 +142,7 @@
                                     "    <img src=\"{rating_img_url_small}\"/>",
                                     "</div>"
                                 ],
-                                "designer|displayName": "tpl"
+                                "designer|displayName": "tplInfo"
                             },
                             "designerId": "5d6e1885-b4c4-4e76-b9eb-de9c2f8b68f2"
                         }
