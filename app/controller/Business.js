@@ -38,7 +38,7 @@ Ext.define('CityBars.controller.Business', {
         var me = this,
             map,
             lat,
-            long,
+            lon,
             loc,
             marker,
             info, details;
