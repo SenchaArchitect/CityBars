@@ -17,7 +17,7 @@
     "xdsVersion": "2.1.0",
     "xdsBuild": 613,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000497,
+    "upgradeVersion": 210000000498,
     "framework": "touch20",
     "topInstanceFileMap": {
         "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
