@@ -4,6 +4,7 @@
         "urlPrefix": "http://localhost/sandbox/citybars",
         "spacesToIndent": 4,
         "exportPath": "",
+        "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
         "cacheBust": false,
@@ -15,7 +16,7 @@
         "appName": "MyApp"
     },
     "xdsVersion": "2.1.0",
-    "xdsBuild": 613,
+    "xdsBuild": 670,
     "schemaVersion": 1,
     "upgradeVersion": 210000000498,
     "framework": "touch20",
