@@ -3,7 +3,7 @@
     "settings": {
         "urlPrefix": "http://localhost/sandbox/citybars",
         "spacesToIndent": 4,
-        "exportPath": "",
+        "exportPath": "/Users/philstrong/Documents/sandbox/citybars",
         "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
