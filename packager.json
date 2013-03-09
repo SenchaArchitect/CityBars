@@ -50,7 +50,7 @@
      * 
      * This is location of your Sencha Touch 2 application, relative to this configuration file.
      */
-    "inputPath": "./",
+    "inputPath": "./build/citybars/production",
 
     /**
      * @cfg {String} outputPath

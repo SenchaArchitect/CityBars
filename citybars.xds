@@ -13,7 +13,8 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
+        "appName": "MyApp",
+        "buildShouldOverwriteIndex": false
     },
     "xdsVersion": "2.2.0",
     "xdsBuild": 0,
