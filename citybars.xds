@@ -15,10 +15,10 @@
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
-    "xdsVersion": "2.1.0",
-    "xdsBuild": 670,
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000498,
+    "upgradeVersion": 210000000499,
     "framework": "touch21",
     "topInstanceFileMap": {
         "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
@@ -86,6 +86,14 @@
                 "metadata/resource/GoogleMapsAPI"
             ],
             "className": "GoogleMapsAPI"
+        },
+        "e9186801-ad31-4c26-adcd-f7235cc74eaa": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
         }
     },
     "viewOrderMap": {
@@ -104,6 +112,7 @@
             "1a7b373d-09ea-4801-ac4e-48a72712a4fd"
         ],
         "resource": [
+            "e9186801-ad31-4c26-adcd-f7235cc74eaa",
             "fb54b0a9-fdd8-4f42-9298-6dafa3811154",
             "df0136db-b728-4765-8a13-e6ad9fd1a9ff",
             "2e700068-d10c-4cc2-babe-ca2fdcc02ac0"

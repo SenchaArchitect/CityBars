@@ -1,5 +1,5 @@
 {
-    "type": "tabpanel",
+    "type": "Ext.tab.Panel",
     "reference": {
         "name": "items",
         "type": "array"
@@ -9,11 +9,10 @@
         "designer|userClassName": "DetailPanel",
         "designer|userAlias": "detailpanel"
     },
-    "id": "ExtBox1-ext-gen5348",
     "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
     "cn": [
         {
-            "type": "tabbar",
+            "type": "Ext.tab.Bar",
             "reference": {
                 "name": "tabBar",
                 "type": "object"
@@ -21,14 +20,14 @@
             "codeClass": null,
             "userConfig": {
                 "container|pack": "center",
-                "designer|userClassName": "MyTabBar",
                 "docked": "top",
-                "ui": "light"
+                "ui": "light",
+                "designer|userClassName": "MyTabBar"
             },
             "designerId": "df123052-92f8-4500-beb6-970e26615c42"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -36,43 +35,43 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Contact",
-                "designer|userClassName": "MyContainer2",
-                "id": "contact"
+                "id": "contact",
+                "designer|userClassName": "MyContainer2"
             },
             "designerId": "a7c9ab84-ccee-4082-8a8e-7afc74fea2e9",
             "cn": [
                 {
-                    "type": "container",
+                    "type": "Ext.Container",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyContainer5",
                         "id": "info",
                         "padding": 10,
+                        "designer|userClassName": "MyContainer5",
                         "layout": "hbox"
                     },
                     "designerId": "0b88ff7a-18fd-46aa-aa2a-a0074b2465a2",
                     "cn": [
                         {
-                            "type": "component",
+                            "type": "Ext.Component",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyComponent",
                                 "height": 100,
                                 "id": "photo",
-                                "width": 100
+                                "width": 100,
+                                "designer|userClassName": "MyComponent"
                             },
                             "designerId": "616d4c28-3e1b-4f55-b3a3-863c5f7fd84b",
                             "cn": [
                                 {
-                                    "type": "template",
+                                    "type": "Ext.XTemplate",
                                     "reference": {
                                         "name": "tpl",
                                         "type": "object"
@@ -90,21 +89,21 @@
                             ]
                         },
                         {
-                            "type": "component",
+                            "type": "Ext.Component",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyComponent1",
                                 "id": "data",
-                                "padding": 10
+                                "padding": 10,
+                                "designer|userClassName": "MyComponent1"
                             },
                             "designerId": "cf6f5a05-8b83-4545-8cbf-092a0784b401",
                             "cn": [
                                 {
-                                    "type": "template",
+                                    "type": "Ext.XTemplate",
                                     "reference": {
                                         "name": "tpl",
                                         "type": "object"
@@ -126,7 +125,7 @@
                             ]
                         },
                         {
-                            "type": "template",
+                            "type": "Ext.XTemplate",
                             "reference": {
                                 "name": "tpl",
                                 "type": "object"
@@ -149,7 +148,7 @@
                     ]
                 },
                 {
-                    "type": "container",
+                    "type": "Ext.Container",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -163,42 +162,42 @@
                     "designerId": "57826839-31be-48ed-ac57-1f1ba642a04d",
                     "cn": [
                         {
-                            "type": "button",
+                            "type": "Ext.Button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyButton",
                                 "width": 100,
+                                "designer|userClassName": "MyButton",
                                 "text": "Call"
                             },
                             "designerId": "ece3ad08-ed72-4875-9e21-31b3c3bdb0f3"
                         },
                         {
-                            "type": "spacer",
+                            "type": "Ext.Spacer",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MySpacer",
-                                "width": 57
+                                "width": 57,
+                                "designer|userClassName": "MySpacer"
                             },
                             "designerId": "a37e66fa-61d0-49b0-ab90-61c12c5ccef7"
                         },
                         {
-                            "type": "button",
+                            "type": "Ext.Button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyButton1",
                                 "width": 100,
+                                "designer|userClassName": "MyButton1",
                                 "text": "More"
                             },
                             "designerId": "e3ff8722-e30d-49f8-a9a8-d04d5389b56d"
@@ -208,7 +207,7 @@
             ]
         },
         {
-            "type": "map",
+            "type": "Ext.Map",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -216,9 +215,9 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Map",
-                "designer|userClassName": "MyMap",
                 "height": null,
-                "id": "detailMap"
+                "id": "detailMap",
+                "designer|userClassName": "MyMap"
             },
             "designerId": "1746f8cf-68e1-41c9-a69d-a68703633d84"
         }
