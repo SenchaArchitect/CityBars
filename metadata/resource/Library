@@ -5,5 +5,8 @@
         "type": "array"
     },
     "codeClass": null,
+    "userConfig": {
+        "basePath": "touch/"
+    },
     "designerId": "fb54b0a9-fdd8-4f42-9298-6dafa3811154"
 }
