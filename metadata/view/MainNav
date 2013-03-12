@@ -1,5 +1,5 @@
 {
-    "type": "navigationview",
+    "type": "Ext.navigation.View",
     "reference": {
         "name": "items",
         "type": "array"
@@ -10,11 +10,10 @@
         "designer|userAlias": "mainnav",
         "designer|initialView": true
     },
-    "id": "ExtBox1-ext-gen2005",
     "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
     "cn": [
         {
-            "type": "navigationbar",
+            "type": "Ext.navigation.Bar",
             "reference": {
                 "name": "navigationBar",
                 "type": "object"
@@ -43,7 +42,7 @@
                     "type": "string"
                 }
             ],
-            "masterInstanceId": "ExtBox1-ext-gen2515"
+            "masterInstanceId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437"
         }
     ]
 }
