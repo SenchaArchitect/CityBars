@@ -1,5 +1,5 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
@@ -10,25 +10,24 @@
         "designer|userAlias": "listcontainer",
         "layout": "fit"
     },
-    "id": "ExtBox1-ext-gen2515",
     "designerId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
     "cn": [
         {
-            "type": "list",
+            "type": "Ext.dataview.List",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyList",
                 "id": "dataList",
-                "itemId": null
+                "itemId": null,
+                "designer|userClassName": "MyList"
             },
             "designerId": "4036229e-afa2-4715-84aa-4110e88b06a0",
             "cn": [
                 {
-                    "type": "template",
+                    "type": "Ext.XTemplate",
                     "reference": {
                         "name": "itemTpl",
                         "type": "object"
