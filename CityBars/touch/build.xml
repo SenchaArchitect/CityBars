@@ -1,4 +1,4 @@
-<project name="extjs" default="build" basedir=".">
+<project name="extjs" default="build" basedir="">
 
     <target name="init-antcontrib">
         <taskdef resource="net/sf/antcontrib/antlib.xml">
