@@ -14,10 +14,10 @@
         "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp",
-        "buildShouldOverwriteIndex": false
+        "buildShouldOverwriteIndex": true
     },
     "xdsVersion": "2.2.0",
-    "xdsBuild": 0,
+    "xdsBuild": 909,
     "schemaVersion": 1,
     "upgradeVersion": 210000000499,
     "framework": "touch21",
