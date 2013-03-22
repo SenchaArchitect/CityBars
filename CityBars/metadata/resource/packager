@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userClassName": "packager",
         "applicationName": "citybars",
-        "applicationId": "com.mycompany.myAppID",
+        "applicationId": "com.sencha.Citybars",
         "versionString": "1.0",
         "versionCode": "1",
         "icon": [
