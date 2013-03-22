@@ -58,6 +58,9 @@ Ext.define('CityBars.controller.Business', {
                 zoom: 18
             });
 
+            // fixes a bug in touch 2.1.1
+            map.element.un('painted', 'setMapCenter', map);
+
             map.setMapCenter({
                 latitude: lat,
                 longitude: lon
