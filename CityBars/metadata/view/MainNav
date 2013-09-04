@@ -19,9 +19,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyNavigationBar"
-            },
             "designerId": "55089f46-6ed3-40b4-bb04-b9d42bcc932a"
         },
         {
