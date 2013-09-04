@@ -16,11 +16,11 @@
         "appName": "MyApp",
         "buildShouldOverwriteIndex": true
     },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 909,
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
+    "upgradeVersion": 210000000503,
+    "framework": "touch22",
     "topInstanceFileMap": {
         "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
             "paths": [
