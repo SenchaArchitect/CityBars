@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "dataList",
                 "ref": "dataList",
                 "selector": "#dataList"
             },
@@ -32,7 +31,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "listCard",
                 "ref": "listCard",
                 "selector": "#listCard"
             },
@@ -46,7 +44,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "mainNav",
                 "ref": "mainNav",
                 "selector": "mainnav"
             },
@@ -60,7 +57,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "detailCard",
                 "ref": "detailCard",
                 "selector": "detailpanel"
             },
@@ -74,7 +70,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "getLocation",
                 "fn": "getLocation",
                 "designer|params": [
                     "callback"
@@ -100,7 +95,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "getBusinesses",
                 "fn": "getBusinesses",
                 "designer|params": [
                     "location",
@@ -111,17 +105,17 @@
                     "// You must use your own yelp key, available by registering (for free) with Yelp:",
                     "// http://www.yelp.com/developers/getting_started/api_overview",
                     "// (in this app, we use the Review Search API v1.0)",
-                    "    var store = Ext.data.StoreManager.lookup('BusinessStore'),",
-                    "        yelpKey = '', // enter your yelp key here",
-                    "        url = 'http://api.yelp.com/business_review_search' +",
-                    "        '?ywsid=' + yelpKey +",
-                    "        '&term=Bars' +",
-                    "        '&lat=' + location.coords.latitude +",
-                    "        '&long=' + location.coords.longitude;",
-                    "    store.getProxy().setUrl(url);",
-                    "    store.load(function() {",
-                    "        callback(store);",
-                    "    });"
+                    "var store = Ext.data.StoreManager.lookup('BusinessStore'),",
+                    "    yelpKey = '', // enter your yelp key here",
+                    "    url = 'http://api.yelp.com/business_review_search' +",
+                    "    '?ywsid=' + yelpKey +",
+                    "    '&term=Bars' +",
+                    "    '&lat=' + location.coords.latitude +",
+                    "    '&long=' + location.coords.longitude;",
+                    "store.getProxy().setUrl(url);",
+                    "store.load(function() {",
+                    "    callback(store);",
+                    "});"
                 ]
             },
             "designerId": "0d1be29d-0940-4265-877a-750f8738f6d9"
@@ -134,46 +128,27 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onListItemTap",
                 "fn": "onListItemTap",
                 "implHandler": [
-                    "var me = this,",
-                    "    map,",
-                    "    lat,",
-                    "    lon,",
-                    "    loc,",
-                    "    marker,",
-                    "    info, details;",
+                    "var map,",
+                    "    info,",
+                    "    details;",
                     "",
                     "if (record) {",
-                    "",
                     "    details = Ext.create('CityBars.view.DetailPanel', {",
                     "        title: 'Details'",
                     "    });",
                     "",
                     "    // set the map",
                     "    map = details.child('#detailMap');",
-                    "    lat = record.get('latitude');",
-                    "    lon = record.get('longitude');",
-                    "",
-                    "    map.setMapOptions({",
-                    "        zoom: 18",
-                    "    });",
-                    "    ",
-                    "    // fixes a bug in touch 2.1.1",
-                    "    map.element.un('painted', 'setMapCenter', map);",
-                    "",
-                    "    map.setMapCenter({",
-                    "        latitude: lat,",
-                    "        longitude: lon",
-                    "    });",
+                    "    map._record = record;",
                     "",
                     "    // set the info",
                     "    info = details.child('#contact').child('#info');",
                     "    info.child('#photo').setData(record.data);",
                     "    info.child('#data').setData(record.data);",
                     "",
-                    "    me.getMainNav().push(details);",
+                    "    this.getMainNav().push(details);",
                     "}"
                 ],
                 "name": "itemtap",
@@ -190,7 +165,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "launch",
                 "fn": "launch",
                 "implHandler": [
                     "var me = this;",
@@ -220,7 +194,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onCallButtonTap",
                 "fn": "onCallButtonTap",
                 "implHandler": [
                     "alert('call tap');"
@@ -230,6 +203,66 @@
                 "designer|controlQuery": "detailpanel button[text='Call']"
             },
             "designerId": "70740668-3f6f-4c6c-9f9b-7661f1c0634b"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMapActivate",
+                "implHandler": [
+                    "var map = newActiveItem,",
+                    "    record = map._record,",
+                    "    lat = record.get('latitude'),",
+                    "    lng = record.get('longitude'),",
+                    "    centerMap = Ext.Function.createDelayed(function() {",
+                    "        map.setMapOptions({",
+                    "            zoom: 18",
+                    "        });        ",
+                    "        map.setMapCenter({",
+                    "            latitude: lat,",
+                    "            longitude: lng",
+                    "        });",
+                    "    }, 250),",
+                    "    geocoder, loc;",
+                    "",
+                    "if (lat && lng) {",
+                    "    centerMap();",
+                    "} else {",
+                    "    geocoder = this._geocoder || (this._geocoder = new google.maps.Geocoder());",
+                    "    geocoder.geocode(",
+                    "    {address: [",
+                    "        record.get('address1'), ",
+                    "        record.get('address2'), ",
+                    "        record.get('address3'), ",
+                    "        record.get('city'), ",
+                    "        record.get('state_code'),",
+                    "        record.get('zip')",
+                    "    ].join(', ')}, ",
+                    "    function(results, status) {",
+                    "        if (status == google.maps.GeocoderStatus.OK) {",
+                    "            loc = results[0].geometry.location;",
+                    "            lat = loc.lat();",
+                    "            lng = loc.lng();",
+                    "            record.set('latitude', lat);",
+                    "            record.set('longitude', lng);",
+                    "            centerMap();",
+                    "        } else {",
+                    "            Ext.Msg.alert(\"Could not find location: \" + status);",
+                    "        }",
+                    "    }",
+                    "    );",
+                    "}",
+                    ""
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.Map",
+                "designer|controlQuery": "detailpanel > map"
+            },
+            "designerId": "cd8b10d0-a0b8-43fc-9c15-4c7fef8a168d"
         }
     ]
 }

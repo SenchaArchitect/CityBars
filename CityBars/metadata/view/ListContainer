@@ -21,8 +21,7 @@
             "codeClass": null,
             "userConfig": {
                 "id": "dataList",
-                "itemId": null,
-                "designer|userClassName": "MyList"
+                "itemId": null
             },
             "designerId": "4036229e-afa2-4715-84aa-4110e88b06a0",
             "cn": [
@@ -34,7 +33,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "itemTpl",
                         "implHandler": [
                             "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>"
                         ],
