@@ -330,6 +330,9 @@ Ext.define("Ext.draw.Path", {
      * @param height
      */
     rect: function (x, y, width, height) {
+        if (width == 0 || height == 0) {
+            return;
+        }
         var me = this;
         me.moveTo(x, y);
         me.lineTo(x + width, y);
@@ -724,6 +727,7 @@ Ext.define("Ext.draw.Path", {
      * @param y4
      * @param x
      * @param y
+     * @param idx
      * @return {*}
      */
     rayTestCubicBezier: function (x1, y1, x2, y2, x3, y3, x4, y4, x, y, idx) {

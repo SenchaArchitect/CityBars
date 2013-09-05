@@ -107,7 +107,8 @@ Ext.define("Ext.chart.series.sprite.Bar", {
         itemCfg.height = bottom - top;
         itemCfg.radius = this.attr.radius;
         if (this.attr.renderer) {
-            this.attr.renderer.call(this, itemCfg, this, index, this.getDataItems().items[index]);
+            changes = this.attr.renderer.call(this, this, itemCfg, {store:this.getStore()}, index);
+            Ext.apply(itemCfg, changes);
         }
         this.putMarker("items", itemCfg, index, !this.attr.renderer);
     },
@@ -162,5 +163,33 @@ Ext.define("Ext.chart.series.sprite.Bar", {
                 translationY: surfaceMatrix.y(center, top)
             }, i, true);
         }
+    },
+
+    //@inheritdoc
+    getIndexNearPoint: function (x, y) {
+        var sprite = this,
+            attr = sprite.attr,
+            dataX = attr.dataX,
+            surface = sprite.getParent(),
+            surfaceRegion = surface.getRegion(),
+            surfaceHeight = surfaceRegion[3],
+            hitX, hitY, index = -1;
+
+        // The "items" sprites that draw the bars work in a reverse vertical coordinate system
+        // starting with 0 at the bottom and increasing the Y coordinate toward the top.
+        // See also Ext.chart.series.Bar.getItemForPoint(x,y) regarding the chart's InnerPadding.
+        //
+        // TODO: Cleanup the bar sprites.
+        hitX = x;
+        hitY = surfaceHeight - y;
+        
+        for (var i = 0; i < dataX.length; i++) {
+            var bbox = sprite.getMarkerBBox("items", i);
+            if (hitX >= bbox.x && hitX <= (bbox.x + bbox.width) && hitY >= bbox.y && hitY <= (bbox.y + bbox.height)) {
+                index = i;
+            }
+        }
+        return index;
     }
+
 });

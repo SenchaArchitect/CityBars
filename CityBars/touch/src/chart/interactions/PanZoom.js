@@ -169,8 +169,7 @@ Ext.define('Ext.chart.interactions.PanZoom', {
 
         modeToggleButton: {
             cls: ['x-panzoom-toggle', 'x-zooming'],
-            iconCls: 'x-panzoom-toggle-icon',
-            iconMask: true
+            iconCls: 'expand'
         },
 
         hideLabelInGesture: false //Ext.os.is.Android
@@ -197,12 +196,12 @@ Ext.define('Ext.chart.interactions.PanZoom', {
             if (zoomOnPanGesture) {
                 button.addCls(zoomModeCls);
                 if (!button.config.hideText) {
-                    button.setText('&nbsp;Zoom');
+                    button.setText('Zoom');
                 }
             } else {
                 button.removeCls(zoomModeCls);
                 if (!button.config.hideText) {
-                    button.setText('&nbsp;Pan');
+                    button.setText('Pan');
                 }
             }
         }
