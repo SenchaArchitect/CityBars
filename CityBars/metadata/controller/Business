@@ -75,7 +75,6 @@
                     "callback"
                 ],
                 "implHandler": [
-                    "console.log('getLoc');",
                     "if (navigator && navigator.geolocation) {",
                     "    navigator.geolocation.getCurrentPosition(function(position) {",
                     "        callback(position);",

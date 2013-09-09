@@ -111,7 +111,6 @@ Ext.define('CityBars.controller.Business', {
     },
 
     getLocation: function(callback) {
-        console.log('getLoc');
         if (navigator && navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function(position) {
                 callback(position);
