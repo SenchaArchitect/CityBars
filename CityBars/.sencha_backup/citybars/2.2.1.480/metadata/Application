@@ -1,0 +1,30 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Business"
+        ],
+        "stores": [
+            "BusinessStore"
+        ],
+        "views": [
+            "DetailPanel",
+            "ListContainer",
+            "MainNav"
+        ],
+        "requires": [
+            "Ext.dataview.List",
+            "Ext.data.proxy.JsonP"
+        ],
+        "controllers": [
+            "Business"
+        ],
+        "name": "CityBars"
+    },
+    "designerId": "application"
+}

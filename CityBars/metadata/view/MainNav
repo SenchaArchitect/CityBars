@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "MainNav",
+        "designer|initialView": true,
         "designer|userAlias": "mainnav",
-        "designer|initialView": true
+        "designer|userClassName": "MainNav"
     },
     "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
     "cn": [

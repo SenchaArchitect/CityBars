@@ -70,10 +70,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "getLocation",
                 "designer|params": [
                     "callback"
                 ],
+                "fn": "getLocation",
                 "implHandler": [
                     "if (navigator && navigator.geolocation) {",
                     "    navigator.geolocation.getCurrentPosition(function(position) {",
@@ -94,11 +94,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "getBusinesses",
                 "designer|params": [
                     "location",
                     "callback"
                 ],
+                "fn": "getBusinesses",
                 "implHandler": [
                     "// NOTE ABOUT YELP KEY",
                     "// You must use your own yelp key, available by registering (for free) with Yelp:",
@@ -127,6 +127,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|controlQuery": "#dataList",
+                "designer|targetType": "Ext.dataview.List",
                 "fn": "onListItemTap",
                 "implHandler": [
                     "var map,",
@@ -150,9 +152,7 @@
                     "    this.getMainNav().push(details);",
                     "}"
                 ],
-                "name": "itemtap",
-                "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "#dataList"
+                "name": "itemtap"
             },
             "designerId": "d8288a0b-efe9-49bf-8651-5eb9cc5056eb"
         },
@@ -193,13 +193,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|controlQuery": "detailpanel button[text='Call']",
+                "designer|targetType": "Ext.Button",
                 "fn": "onCallButtonTap",
                 "implHandler": [
                     "alert('call tap');"
                 ],
-                "name": "tap",
-                "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "detailpanel button[text='Call']"
+                "name": "tap"
             },
             "designerId": "70740668-3f6f-4c6c-9f9b-7661f1c0634b"
         },
@@ -211,6 +211,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|controlQuery": "detailpanel > map",
+                "designer|targetType": "Ext.Map",
                 "fn": "onMapActivate",
                 "implHandler": [
                     "var map = newActiveItem,",
@@ -257,9 +259,7 @@
                     "}",
                     ""
                 ],
-                "name": "activate",
-                "designer|targetType": "Ext.Map",
-                "designer|controlQuery": "detailpanel > map"
+                "name": "activate"
             },
             "designerId": "cd8b10d0-a0b8-43fc-9c15-4c7fef8a168d"
         }

@@ -1,0 +1,45 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainNav",
+        "designer|userAlias": "mainnav",
+        "designer|initialView": true
+    },
+    "designerId": "3e7eb33b-8bf5-47c1-b6db-b85e588a629a",
+    "cn": [
+        {
+            "type": "Ext.navigation.Bar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "55089f46-6ed3-40b4-bb04-b9d42bcc932a"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "City Bars"
+            },
+            "designerId": "65121f7e-47d3-4bf4-8dcc-293989bac56b",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "title",
+                    "type": "string"
+                }
+            ],
+            "masterInstanceId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437"
+        }
+    ]
+}

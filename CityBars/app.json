@@ -1,42 +1,68 @@
 {
-  "name": "citybars",
-  "indexHtmlPath": "index.html",
-  "url": null,
-  "js": [
-    {
-      "path": "touch/sencha-touch.js",
-      "x-bootstrap": true
-    },
-    {
-      "path": "app.js",
-      "bundle": true,
-      "update": "delta"
-    }
-  ],
-  "css": [
-    {
-      "path": "resources/css/app.css",
-      "update": "delta"
-    }
-  ],
-  "appCache": {
-    "cache": [
-      "index.html"
-    ],
-    "network": [
-      "*"
-    ],
-    "fallback": []
-  },
-  "resources": [
-    "resources/images",
-    "resources/icons",
-    "resources/startup"
-  ],
-  "ignore": [
-    ".svn$"
-  ],
-  "archivePath": "archive",
-  "requires": [],
-  "id": "f6d31db3-4fba-49fd-b078-65553728d829"
+   "name": "CityBars",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "resources/css/sencha-touch.css",
+         "_architect_active_theme": true
+      },
+      {
+         "path": "citybars.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "f6d31db3-4fba-49fd-b078-65553728d829",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "CityBars",
+      "css": [
+         {
+            "path": "citybars.css"
+         }
+      ],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
 }

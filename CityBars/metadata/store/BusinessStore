@@ -7,9 +7,9 @@
     "codeClass": null,
     "userConfig": {
         "data": null,
+        "designer|userClassName": "BusinessStore",
         "model": "Business",
-        "storeId": "BusinessStore",
-        "designer|userClassName": "BusinessStore"
+        "storeId": "BusinessStore"
     },
     "mockCfgs": [
         "data"
