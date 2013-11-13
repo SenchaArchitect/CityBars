@@ -6,8 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "Business"
+        ],
         "models": [
             "Business"
+        ],
+        "name": "CityBars",
+        "requires": [
+            "Ext.dataview.List",
+            "Ext.data.proxy.JsonP"
         ],
         "stores": [
             "BusinessStore"
@@ -16,15 +24,7 @@
             "DetailPanel",
             "ListContainer",
             "MainNav"
-        ],
-        "requires": [
-            "Ext.dataview.List",
-            "Ext.data.proxy.JsonP"
-        ],
-        "controllers": [
-            "Business"
-        ],
-        "name": "CityBars"
+        ]
     },
     "designerId": "application"
 }

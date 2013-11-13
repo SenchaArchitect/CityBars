@@ -1,6 +1,9 @@
 {
     "name": "citybars",
     "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
         "urlPrefix": "http://localhost/sandbox/citybars",
         "spacesToIndent": 4,
         "exportPath": "/Users/philstrong/Documents/sandbox/citybars",
@@ -14,89 +17,23 @@
         "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp",
-        "buildShouldOverwriteIndex": true
+        "buildShouldOverwriteIndex": true,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "generateArchitectVersion": true
     },
-    "xdsVersion": "2.2.2",
-    "xdsBuild": 991,
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000503,
+    "upgradeVersion": 300000000003,
     "framework": "touch22",
-    "topInstanceFileMap": {
-        "3e7eb33b-8bf5-47c1-b6db-b85e588a629a": {
-            "paths": [
-                "metadata/view/MainNav",
-                "app/view/override/MainNav.js",
-                "app/view/MainNav.js"
-            ],
-            "className": "MainNav"
-        },
-        "28e6f7ec-5b3c-4413-9c33-79b45adf4437": {
-            "paths": [
-                "metadata/view/ListContainer",
-                "app/view/override/ListContainer.js",
-                "app/view/ListContainer.js"
-            ],
-            "className": "ListContainer"
-        },
-        "ca7e954f-cecd-4e74-8620-848212a11e02": {
-            "paths": [
-                "metadata/view/DetailPanel",
-                "app/view/override/DetailPanel.js",
-                "app/view/DetailPanel.js"
-            ],
-            "className": "DetailPanel"
-        },
-        "b866f522-624d-4bde-a112-b25880c8285f": {
-            "paths": [
-                "metadata/store/BusinessStore",
-                "app/store/override/BusinessStore.js",
-                "app/store/BusinessStore.js"
-            ],
-            "className": "BusinessStore"
-        },
-        "e91896ac-fad3-4dbf-9f3c-acfdb2bc5d9e": {
-            "paths": [
-                "metadata/controller/Business",
-                "app/controller/override/Business.js",
-                "app/controller/Business.js"
-            ],
-            "className": "Business"
-        },
-        "1a7b373d-09ea-4801-ac4e-48a72712a4fd": {
-            "paths": [
-                "metadata/model/Business",
-                "app/model/override/Business.js",
-                "app/model/Business.js"
-            ],
-            "className": "Business"
-        },
-        "df0136db-b728-4765-8a13-e6ad9fd1a9ff": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "fb54b0a9-fdd8-4f42-9298-6dafa3811154": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
-        },
-        "2e700068-d10c-4cc2-babe-ca2fdcc02ac0": {
-            "paths": [
-                "metadata/resource/GoogleMapsAPI"
-            ],
-            "className": "GoogleMapsAPI"
-        },
-        "e9186801-ad31-4c26-adcd-f7235cc74eaa": {
-            "paths": [
-                "metadata/resource/packager",
-                "",
-                "packager.json"
-            ],
-            "className": "packager"
-        }
-    },
     "viewOrderMap": {
         "view": [
             "ca7e954f-cecd-4e74-8620-848212a11e02",

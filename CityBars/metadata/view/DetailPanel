@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "DetailPanel",
-        "designer|userAlias": "detailpanel"
+        "designer|userAlias": "detailpanel",
+        "designer|userClassName": "DetailPanel"
     },
     "designerId": "ca7e954f-cecd-4e74-8620-848212a11e02",
     "cn": [
@@ -33,8 +33,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Contact",
-                "id": "contact"
+                "id": "contact",
+                "title": "Contact"
             },
             "designerId": "a7c9ab84-ccee-4082-8a8e-7afc74fea2e9",
             "cn": [
@@ -47,8 +47,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "info",
-                        "padding": 10,
-                        "layout": "hbox"
+                        "layout": "hbox",
+                        "padding": 10
                     },
                     "designerId": "0b88ff7a-18fd-46aa-aa2a-a0074b2465a2",
                     "cn": [
@@ -74,10 +74,10 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|displayName": "tplPhoto",
                                         "implHandler": [
                                             "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>"
-                                        ],
-                                        "designer|displayName": "tplPhoto"
+                                        ]
                                     },
                                     "designerId": "ec796845-d565-45b8-b4ad-5e9c053cdd64"
                                 }
@@ -104,14 +104,14 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|displayName": "tplData",
                                         "implHandler": [
                                             "<h2>{name}</h2>",
                                             "<div class=\"info\">",
                                             "    {address1}<br/>",
                                             "    <img src=\"{rating_img_url_small}\"/>",
                                             "</div>"
-                                        ],
-                                        "designer|displayName": "tplData"
+                                        ]
                                     },
                                     "designerId": "f03e0f27-ac7a-452b-bc6f-bee70e7b91c5"
                                 }
@@ -125,6 +125,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "designer|displayName": "tplInfo",
                                 "implHandler": [
                                     "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>",
                                     "<h2>{name}</h2>",
@@ -132,8 +133,7 @@
                                     "    {address1}<br/>",
                                     "    <img src=\"{rating_img_url_small}\"/>",
                                     "</div>"
-                                ],
-                                "designer|displayName": "tplInfo"
+                                ]
                             },
                             "designerId": "5d6e1885-b4c4-4e76-b9eb-de9c2f8b68f2"
                         }
@@ -160,8 +160,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 100,
-                                "text": "Call"
+                                "text": "Call",
+                                "width": 100
                             },
                             "designerId": "ece3ad08-ed72-4875-9e21-31b3c3bdb0f3"
                         },
@@ -185,8 +185,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 100,
-                                "text": "More"
+                                "text": "More",
+                                "width": 100
                             },
                             "designerId": "e3ff8722-e30d-49f8-a9a8-d04d5389b56d"
                         }
@@ -202,9 +202,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Map",
                 "height": null,
                 "id": "detailMap",
+                "title": "Map",
                 "useCurrentLocation": null
             },
             "designerId": "1746f8cf-68e1-41c9-a69d-a68703633d84"
