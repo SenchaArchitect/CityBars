@@ -1,0 +1,46 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ListContainer",
+        "designer|userAlias": "listcontainer",
+        "layout": "fit"
+    },
+    "designerId": "28e6f7ec-5b3c-4413-9c33-79b45adf4437",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "dataList",
+                "itemId": null
+            },
+            "designerId": "4036229e-afa2-4715-84aa-4110e88b06a0",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "<img class=\"photo\" src=\"{photo_url}\" width=\"40\" height=\"40\"/>{name}<br/><img src=\"{rating_img_url_small}\"/>&nbsp;<small>{address1}</small>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "0613e169-e356-409c-88b8-cb0daf10a414"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "applicationName": "CityBars",
+    "applicationId": "com.mycompany.myAppID",
+    "bundleSeedId": "KPXFEPZ6EF",
+    "versionString": "1.0",
+    "iconName": "icon.png",
+    "inputPath": "./",
+    "outputPath": "/Users/philstrong/Documents/sandbox/build/citybars",
+    "configuration": "Debug",
+    "platform": "iOSSimulator",
+    "deviceType": "Universal",
+    "certificatePath": "",
+    "certificateAlias": "",
+    "sdkPath": "",
+    "androidAPILevel": ""
+}
